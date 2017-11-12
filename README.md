@@ -1,13 +1,7 @@
-# gatsby-starter-default
-The default Gatsby starter
+# My Portfolio
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+This portfolio uses Gatsby and React.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+I run a single command to deploy to GitHub pages after any changes. I think it's kind of nifty.
 
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Feel free to use it as a starting point for your portfolio.
