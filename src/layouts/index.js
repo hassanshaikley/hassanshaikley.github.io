@@ -8,7 +8,7 @@ import './index.css'
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: 'lavender',
       marginBottom: '1.45rem',
     }}
   >
@@ -32,6 +32,7 @@ const Header = () => (
 
       </h1>
 			<br />
+			Software Engineer based in Calgary who is interested in Elixir/Phoenix, Node, React and Ruby on Rails.
 
     </div>
   </div>
@@ -41,7 +42,7 @@ const Header = () => (
 const Footer = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: 'lavender',
     }}
   >
     <div
@@ -66,10 +67,10 @@ const Footer = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Hassan Shaikley's Portfolio"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Hassan is a Software Engineer located in Calgary, AB. He has experience writing and architecting software for startups and larger companies.' },
+        { name: 'keywords', content: 'Calgary, Alberta, Node, Meteor, Node.js, API, REST, Microservices, Software Engineer, Top Tech Talent, Programmer, Web Developer, Microservices, JavaScript, Front End, Full Stack, Back end, elixir, phoenix, Hassan Shaikley, React, MIT, MIT Media Lab' },
       ]}
     />
     <Header />
