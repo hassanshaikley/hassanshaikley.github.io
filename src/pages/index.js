@@ -31,7 +31,7 @@ const IndexPage = () => (
 		<hr />
 		<br />
 
-		<img src={banf} alt="Logo" />
+		<img src={banf} alt="A picture of me drinking coffee at Banff National Park." />
 
   </div>
 )
