@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import banf from './banf.jpg'; // Tell Webpack this JS file uses this image
+
+
 const IndexPage = () => (
   <div>
     <h1>About me</h1>
@@ -28,6 +31,11 @@ const IndexPage = () => (
 		Developed features for a photoshop like web application for <a href="https://www.autofusion.com">AutoFusion</a>.
 		<br />
 		<br />
+
+		<h1>
+		Me
+		</h1>
+		<img src={banf} alt="Logo" />
 
   </div>
 )
