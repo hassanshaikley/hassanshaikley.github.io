@@ -6,8 +6,6 @@ import banf from './banf.jpg'; // Tell Webpack this JS file uses this image
 
 const IndexPage = () => (
   <div>
-
-
 		<h1>Projects and Work</h1>
 		<ul>
 			<li> Developed data visualizations and other core features for <a href="http://stellaralgo.com">Stellaralgo Corp.</a> in Calgary.
