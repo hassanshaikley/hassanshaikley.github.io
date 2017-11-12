@@ -54,10 +54,15 @@ const Footer = () => (
       }}
     >
 		<ul>
-			<li><a style={{color: 'black'}} href="http://github.com/hassanshaikley">GitHub</a>
-</li>
-			<li><a style={{color: 'black'}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">LinkedIn</a>
-</li>
+			<li>
+				<a style={{color: 'black'}} href="http://github.com/hassanshaikley">GitHub</a>
+			</li>
+			<li>
+				<a style={{color: 'black'}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">LinkedIn</a>
+			</li>
+			<li>
+			<a href="mailto:hassan.shaikley@gmail.com?Subject=Noticed%20Your%20Portfolio" target="_top">Send Mail</a>
+			</li>
 		</ul>
 
     </div>
