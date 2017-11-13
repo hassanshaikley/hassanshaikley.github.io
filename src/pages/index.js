@@ -4,7 +4,6 @@ import Link from 'gatsby-link'
 const IndexPage = () => (
   <div>
 		<h1>Projects and Work</h1>
-		<h2>Web</h2>
 		<ul>
 			<li> Developed data visualizations and other core features for <a href="http://stellaralgo.com">Stellaralgo Corp.</a> in Calgary.
 			</li>
