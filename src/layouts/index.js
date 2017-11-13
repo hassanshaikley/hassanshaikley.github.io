@@ -44,13 +44,13 @@ const MyLinks = () => (
 
 			<ul>
 				<li>
-					<a style={{color: 'black'}} href="http://github.com/hassanshaikley">GitHub</a>
+					<a style={{color: 'rgba(0,0,0,.8)'}} href="http://github.com/hassanshaikley">GitHub</a>
 				</li>
 				<li>
-					<a style={{color: 'black'}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">LinkedIn</a>
+					<a style={{color: 'rgba(0,0,0,.8)'}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">LinkedIn</a>
 				</li>
 				<li>
-				<a style={{color: 'black'}} href="mailto:hassan.shaikley@gmail.com?Subject=Noticed%20Your%20Portfolio" target="_top">Email</a>
+				<a style={{color: 'rgba(0,0,0,.8)'}} href="mailto:hassan.shaikley@gmail.com?Subject=Noticed%20Your%20Portfolio" target="_top">Email</a>
 				</li>
 			</ul>
 		</div>
@@ -71,7 +71,7 @@ const Footer = () => (
         margin: '0 auto',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem',
-				color: 'black',
+				color: 'rgba(0,0,0,.8)',
       }}
     >
 
