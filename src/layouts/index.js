@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import banf from './banf.jpg'; // Tell Webpack this JS file uses this image
 
 import './index.css'
 
@@ -69,6 +70,12 @@ const Footer = () => (
   </div>
 )
 
+const PreFooter =() => (
+	<div>
+		<img style={{marginBottom: '0px', margin: 'auto', display: 'block', width: '100%'}} src={banf} alt="A picture of me drinking coffee at Banff National Park." />
+		</div>
+)
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -89,6 +96,7 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
     </div>
+		<PreFooter />
 		<Footer />
   </div>
 )
