@@ -21,22 +21,42 @@ const Header = () => (
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'black',
-            textDecoration: 'none',
-          }}
-        >
           Hassan Shaikley
-        </Link>
-
       </h1>
 			<br />
 			Software Engineer based in Calgary who is interested in Elixir/Phoenix, Node, React and Ruby on Rails.
 
     </div>
   </div>
+)
+
+const MyLinks = () => (
+	<div>
+		<div
+			style={{
+				margin: '0 auto',
+				maxWidth: 960,
+				padding: '0px 1.0875rem 1.45rem',
+				paddingTop: 0,
+			}}
+		>
+		<h1>External Links</h1>
+
+			<ul>
+				<li>
+					<a style={{color: 'black'}} href="http://github.com/hassanshaikley">GitHub</a>
+				</li>
+				<li>
+					<a style={{color: 'black'}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">LinkedIn</a>
+				</li>
+				<li>
+				<a style={{color: 'black'}} href="mailto:hassan.shaikley@gmail.com?Subject=Noticed%20Your%20Portfolio" target="_top">Email</a>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+
 )
 
 
@@ -54,17 +74,6 @@ const Footer = () => (
 				color: 'black',
       }}
     >
-		<ul>
-			<li>
-				<a style={{color: 'black'}} href="http://github.com/hassanshaikley">GitHub</a>
-			</li>
-			<li>
-				<a style={{color: 'black'}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">LinkedIn</a>
-			</li>
-			<li>
-			<a style={{color: 'black'}} href="mailto:hassan.shaikley@gmail.com?Subject=Noticed%20Your%20Portfolio" target="_top">Email</a>
-			</li>
-		</ul>
 
     </div>
   </div>
@@ -96,9 +105,11 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
     </div>
+		<MyLinks />
+
 		<PreFooter />
-		<Footer />
-  </div>
+{		//<Footer />
+}  </div>
 )
 
 TemplateWrapper.propTypes = {
