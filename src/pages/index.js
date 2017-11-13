@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 const IndexPage = () => (
   <div>
 		<h1>Projects and Work</h1>
+		<h2>Web</h2>
 		<ul>
 			<li> Developed data visualizations and other core features for <a href="http://stellaralgo.com">Stellaralgo Corp.</a> in Calgary.
 			</li>
@@ -21,6 +22,9 @@ const IndexPage = () => (
 			</li>
 			<li> Developed features for a photoshop like web application for <a href="https://www.autofusion.com">AutoFusion</a>.
 			</li>
+			<li>  Developed a game that teaches children to recycle with a team of ten artists and programmers called <a href="http://cse125.ucsd.edu/recycool/about">Recycool</a>.
+			</li>
+
 		</ul>
 
   </div>
