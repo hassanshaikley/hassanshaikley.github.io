@@ -25,6 +25,7 @@ const IndexPage = () => (
 			<li> Developed features for a photoshop like web application for <a href="https://www.autofusion.com">AutoFusion</a>.
 			</li>
 		</ul>
+		
 		<br />
 		<hr />
 		<br />
