@@ -24,9 +24,9 @@ const IndexPage = () => (
   >
     <Left>
   		<h1>Projects and Work</h1>
-      <small>
+      <div id="left-small">
       Websites, Games, Data Visualizations, APIs, Prototypes
-      </small>
+      </div>
     </Left>
     <Right>
 		<ul>

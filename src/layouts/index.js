@@ -33,9 +33,9 @@ const Header = () => (
         <h1 style={{ margin: 0 }}>
         Hassan Shaikley
         </h1>
-        <small>
-        Software Engineer
-        </small>
+        <div id="left-small">
+        Softwares Engineer
+        </div>
       </Left>
       <Right>
       Full Stack experience in Node, React and Ruby on Rails
@@ -55,28 +55,28 @@ const MyLinks = () => (
       margin: '0 auto',
       maxWidth: 960,
       padding: '1.45rem 1.0875rem',
-      display: 'flex',
-      flexWrap: 'wrap',
-      width: '100%'
+      width: '100%',
+      height: '100px'
     }}
   >
-    <Left>
-  		<h1>External Links</h1>
-      <small>
-      Elsewhere
-      </small>
-    </Left>
-    <Right>
-      <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px', padding: '0px 20px 0px 20px'}} href="http://github.com/hassanshaikley">
-      <Icon name="github" />
-      </a>
-      <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px', padding: '0px 20px 0px 20px'}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">
-      <Icon name="linkedin" />
-      </a>
-      <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px', padding: '0px 20px 0px 20px'}} href="mailto:hassan.shaikley@gmail.com?Subject=Noticed%20Your%20Portfolio" target="_top">
-      <Icon name="envelope" />
-      </a>
-    </Right>
+
+    <div style={{margin: 'auto'}}>
+      <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
+        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px'}} href="http://github.com/hassanshaikley">
+        <Icon name="github" />
+        </a>
+      </div>
+      <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
+        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px'}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">
+        <Icon name="linkedin" />
+        </a>
+      </div>
+      <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
+        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px'}} href="mailto:hassan.shaikley@gmail.com?Subject=Noticed%20Your%20Portfolio" target="_top">
+        <Icon name="envelope" />
+        </a>
+      </div>
+    </div>
 	</div>
   </div>
 

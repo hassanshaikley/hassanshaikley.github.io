@@ -11,12 +11,12 @@ export class Project extends React.Component {
   }
 
   activate() {
-    console.log('sup')
+    // console.log('sup')
     // <img src={image} />
 
   }
   deactivate() {
-    console.log('suop')
+    // console.log('suop')
 
   }
   render() {

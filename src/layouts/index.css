@@ -622,6 +622,13 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+
+}
+@media only screen and (max-width: 768px) {
+  #left-small {
+    margin-bottom: 25px;
+    font-size: '80%';
+  }
 }
 
 .vertical-timeline {

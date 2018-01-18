@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 export class Left extends React.Component {
   render() {
     return(
-      <div id="k" style={{ width: '40%', minWidth: '120px'}}>
+      <div style={{ width: '40%', minWidth: '200px'}}>
         {this.props.children}
       </div>
     )
