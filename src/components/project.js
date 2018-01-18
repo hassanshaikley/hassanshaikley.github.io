@@ -33,7 +33,7 @@ export class Project extends React.Component {
           {project.company}
         </h5>
 
-        <div style={{fontSize: '90%'}}>{project.description}</div>
+        <div style={{fontSize: '90%', lineHeight: 'normal',  marginTop: '7px'}}>{project.description}</div>
       </div>
     )
   }

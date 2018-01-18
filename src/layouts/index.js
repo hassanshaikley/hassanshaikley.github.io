@@ -34,7 +34,7 @@ const Header = () => (
         Hassan Shaikley
         </h1>
         <div id="left-small">
-        Softwares Engineer
+        Software Engineer
         </div>
       </Left>
       <Right>
