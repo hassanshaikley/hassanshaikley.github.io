@@ -38,7 +38,7 @@ const Header = () => (
         </small>
       </Left>
       <Right>
-      Full Stack Developer interested in Elixir/Phoenix, Node, React and Ruby on Rails.
+      Full Stack experience in Node, React and Ruby on Rails
       </Right>
     </div>
   </div>
