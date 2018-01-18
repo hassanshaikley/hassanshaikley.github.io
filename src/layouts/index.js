@@ -119,9 +119,10 @@ const TemplateWrapper = ({ children }) => (
     />
     <Header />
       {children()}
+      <PreFooter />
+
 		<MyLinks />
 
-		<PreFooter />
 {		//<Footer />
 }  </div>
 )
