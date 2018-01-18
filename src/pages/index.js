@@ -16,13 +16,14 @@ const IndexPage = () => (
       maxWidth: 960,
       padding: '1.45rem 1.0875rem',
       display: 'flex',
+      flexWrap: 'wrap',
       width: '100%'
     }}
   >
     <Left>
   		<h1>Projects and Work</h1>
       <small>
-      Websites, Games, Data Visualizations, APIs
+      Websites, Games, Data Visualizations, APIs, Prototypes
       </small>
     </Left>
     <Right>

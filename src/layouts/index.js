@@ -3,11 +3,16 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import banf from './banf.jpg'; // Tell Webpack this JS file uses this image
+global.React = React;
 
 import './index.css'
 
 import {Left} from '../components/left';
 import {Right} from '../components/right';
+
+import {Icon} from 'react-fa'
+
+
 
 const Header = () => (
   <div
@@ -20,7 +25,8 @@ const Header = () => (
         margin: '0 auto',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem',
-        display: 'flex'
+        display: 'flex',
+        flexWrap: 'wrap',
       }}
     >
       <Left>
@@ -50,6 +56,7 @@ const MyLinks = () => (
       maxWidth: 960,
       padding: '1.45rem 1.0875rem',
       display: 'flex',
+      flexWrap: 'wrap',
       width: '100%'
     }}
   >
@@ -60,17 +67,15 @@ const MyLinks = () => (
       </small>
     </Left>
     <Right>
-      <ul>
-        <li>
-          <a style={{color: 'rgba(0,0,0,.8)'}} href="http://github.com/hassanshaikley">GitHub</a>
-        </li>
-        <li>
-          <a style={{color: 'rgba(0,0,0,.8)'}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">LinkedIn</a>
-        </li>
-        <li>
-        <a style={{color: 'rgba(0,0,0,.8)'}} href="mailto:hassan.shaikley@gmail.com?Subject=Noticed%20Your%20Portfolio" target="_top">Email</a>
-        </li>
-      </ul>
+      <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px', padding: '0px 20px 0px 20px'}} href="http://github.com/hassanshaikley">
+      <Icon name="github" />
+      </a>
+      <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px', padding: '0px 20px 0px 20px'}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">
+      <Icon name="linkedin" />
+      </a>
+      <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px', padding: '0px 20px 0px 20px'}} href="mailto:hassan.shaikley@gmail.com?Subject=Noticed%20Your%20Portfolio" target="_top">
+      <Icon name="envelope" />
+      </a>
     </Right>
 	</div>
   </div>
