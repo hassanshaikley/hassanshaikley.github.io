@@ -1,8 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Anime from 'react-anime';
-
-
 
 export class Left extends React.Component {
   render() {
