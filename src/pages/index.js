@@ -1,9 +1,31 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import {Left} from '../components/left';
+import {Right} from '../components/right';
+
 const IndexPage = () => (
-  <div>
-		<h1>Projects and Work</h1>
+  <div
+    style={{
+      background: '#FEFEFF',
+    }}
+  >
+  <div
+    style={{
+      margin: '0 auto',
+      maxWidth: 960,
+      padding: '1.45rem 1.0875rem',
+      display: 'flex',
+      width: '100%'
+    }}
+  >
+    <Left>
+  		<h1>Projects and Work</h1>
+      <small>
+      Websites, Games, Data Visualizations, APIs
+      </small>
+    </Left>
+    <Right>
 		<ul>
 			<li> Developed data visualizations and other core features for <a href="http://stellaralgo.com">Stellaralgo Corp.</a> in Calgary.
 			</li>
@@ -25,6 +47,8 @@ const IndexPage = () => (
 			</li>
 
 		</ul>
+    </Right>
+    </div>
 
   </div>
 )
