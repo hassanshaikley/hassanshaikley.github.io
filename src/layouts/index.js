@@ -34,7 +34,7 @@ const Header = () => (
         Hassan Shaikley
         </h1>
         <div id="left-small">
-        Software Engineer
+        Software Developer
         </div>
       </Left>
       <Right>
@@ -47,7 +47,7 @@ const Header = () => (
 const MyLinks = () => (
   <div
     style={{
-      background: '#9696D4',
+      background: 'lavender',
     }}
   >
   <div
@@ -113,8 +113,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Hassan Shaikley's Portfolio"
       meta={[
-        { name: 'description', content: 'Hassan is a Software Engineer located in Calgary, AB. He has experience writing and architecting software for startups and larger companies.' },
-        { name: 'keywords', content: 'Calgary, Alberta, Node, Meteor, Node.js, API, REST, Microservices, Software Engineer, Top Tech Talent, Programmer, Web Developer, Microservices, JavaScript, Front End, Full Stack, Back end, elixir, phoenix, Hassan Shaikley, React, MIT, MIT Media Lab' },
+        { name: 'description', content: 'Hassan is a Software Developer located in Calgary, AB. He has experience writing and architecting software for startups and larger companies.' },
+        { name: 'keywords', content: 'Calgary, Alberta, Node, Meteor, Node.js, API, REST, Microservices, Software Developer, Software Engineer, Top Tech Talent, Programmer, Web Developer, Microservices, JavaScript, Front End, Full Stack, Back end, elixir, phoenix, Hassan Shaikley, React, MIT, MIT Media Lab' },
       ]}
     />
     <Header />
