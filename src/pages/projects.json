@@ -1,15 +1,22 @@
 [
   {
+    "company": "youRhere",
+    "role": "Director of Development",
+    "description": "Plan, architect, direct & deliver various projects",
+    "term": "February 2018 - Present",
+    "url": "http://yourhere.ca/"
+  },
+  {
     "company": "Stellaralgo Corp.",
     "role": "Lead JavaScript Developer",
-    "description": "Data Visualizations for the LA Kings, Calgary Flames and others",
+    "description": "Created Data Visualizations for the LA Kings, Calgary Flames and others",
     "term": "July 2017 - November 2017",
     "url": "http://www.stellaralgo.com"
   },
   {
     "company": "MIT Media Lab",
-    "role": "Lead JavaScript Developer",
-    "description": "Focused on PubPub; a Platform for collaborative science",
+    "role": "JavaScript Developer",
+    "description": "Contributed to PubPub; a Platform for collaborative science",
     "term": "2016 - 2017",
     "url": "https://www.pubpub.org/"
   },
