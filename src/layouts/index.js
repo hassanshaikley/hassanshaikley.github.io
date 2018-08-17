@@ -38,7 +38,7 @@ const Header = () => (
         </div>
       </Left>
       <Right>
-      Full Stack experience in Node, React and Ruby on Rails
+      Full Stack experience in Node, Elixir, React and Ruby
       </Right>
     </div>
   </div>
@@ -114,7 +114,7 @@ const TemplateWrapper = ({ children }) => (
       title="Hassan Shaikley's Portfolio"
       meta={[
         { name: 'description', content: 'Hassan is a Software Developer located in Calgary, AB. He has experience writing and architecting software for startups and larger companies.' },
-        { name: 'keywords', content: 'Calgary, Alberta, Node, Meteor, Node.js, API, REST, Microservices, Software Developer, Software Engineer, Top Tech Talent, Programmer, Web Developer, Microservices, JavaScript, Front End, Full Stack, Back end, elixir, phoenix, Hassan Shaikley, React, MIT, MIT Media Lab' },
+        { name: 'keywords', content: 'Calgary, Alberta, Node, Meteor, Node.js, Elixir, Phoenix, GraphQL, API, REST, Microservices, Software Developer, Software Engineer, Top Tech Talent, Programmer, Web Developer, Microservices, JavaScript, Front End, Full Stack, Back end, elixir, phoenix, Hassan Shaikley, React, MIT, MIT Media Lab' },
       ]}
     />
     <Header />
