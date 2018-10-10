@@ -39,7 +39,7 @@ const Header = () => (
       </Left>
       <Right>
       Full Stack experience in Node, Elixir, and Ruby
-      <small>Experience with React, Phoenix, Meteor, Ruby on Rails and various SQL & NoSQL Databases</small>
+      <br /><small>Experience with React, Phoenix, Meteor, Ruby on Rails and various SQL & NoSQL Databases</small>
       </Right>
     </div>
   </div>
