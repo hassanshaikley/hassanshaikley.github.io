@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 const image = require("../pages/aotb.jpg");
+import Modal from 'react-modal';
 
 export class Project extends React.Component {
   constructor(props) {
@@ -21,9 +22,9 @@ export class Project extends React.Component {
   // }
   onClick = () => {
     console.log("CLICK ", this.props.project);
-    // this.setState({
-    //   modal: !this.state.modal
-    // });
+    this.setState({
+      modal: !this.state.modal
+    });
   };
   render() {
     const { project } = this.props;
@@ -43,11 +44,34 @@ export class Project extends React.Component {
         >
           {project.description}
         </div>
-        {this.state.modal && (
-          <div id="modal-container">
-            <div id="modal">FART</div>
+        <Modal
+          isOpen={this.state.modal}
+          style={{
+            // width: '50%'
+          }}
+          contentLabel="Example Modal"
+          shouldReturnFocusAfterClose={true}
+          shouldFocusAfterRender={true}
+          shouldCloseOnOverlayClick={true}
+          shouldCloseOnEsc={true}
+          onRequestClose={this.onClick}
+          onClick={() => {console.log('crap')}}
+        >
+          <div style={{ height: '100%', width: '100%'}}>
+          <div id="modal-role">{project.role}</div>
+          <div id="modal-company">{project.company}</div>
+          { project.technologies.map((technology) => {
+            console.log("HI")
+            return (<span style={{backgroundColor: 'lavender', borderRadius: '3px', padding: '2px', marginRight: '10px' }}>
+              {technology}
+              </span>)
+          })}
+          <img src={"/force/aotb.jpg"} alt="Logo" />
+
+          <br />
+            <button onClick={this.onClick}>close</button>
           </div>
-        )}
+        </Modal>
       </div>
     );
   }

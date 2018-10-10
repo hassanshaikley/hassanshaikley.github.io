@@ -4,65 +4,81 @@
     "role": "Director of Development",
     "description": "Plan, architect, direct & deliver various projects",
     "term": "February 2018 - Present",
-    "url": "http://yourhere.ca/"
+    "url": "http://yourhere.ca/",
+    "technologies": ["React", "Hapi", "Node.js", "Express", "MongoDB", "Redis", "WebGL", "Blender", "Babylon.js"]
   },
   {
     "company": "Stellaralgo Corp.",
     "role": "JavaScript Developer",
     "description": "Created Data Visualizations for the LA Kings, Calgary Flames and others",
     "term": "July 2017 - November 2017",
-    "url": "http://www.stellaralgo.com"
+    "url": "http://www.stellaralgo.com",
+    "technologies": ["Node.js", "Meteor", "HighCharts", "Microsoft SQL Server", "MongoDB"]
   },
   {
     "company": "MIT Media Lab",
     "role": "Lead JavaScript Developer",
     "description": "Contributed to PubPub; a Platform for collaborative science",
     "term": "2016 - 2017",
-    "url": "https://www.pubpub.org/"
+    "url": "https://www.pubpub.org/",
+    "technologies": ["Node.js", "Express", "MongoDB", "PostgreSQL", "React"]
   },
   {
     "company": "Ishqr",
     "role": "Technical Co-founder",
     "description": "Dating startup focused on Muslim Americans",
     "term": "2013 - 2015",
-    "url": "http://ishqr.com"
+    "url": "http://ishqr.com",
+    "technologies": ["Ruby on Rails", "PostgreSQL", "Bootstrap"]
+
   },
   {
     "company": "Arena of the Bits",
     "role": "Game Developer",
     "description": "Multiplayer Browser Game",
     "term": "2015 - 2016",
-    "url": "http://aotb.io/"
+    "url": "http://aotb.io/",
+    "technologies": ["Express", "Socket.io", "Pixi.js", "Node.js"],
+    "imgSource": "aotb.jpg"
+
   },
   {
     "company": "Cool Ways to Recycle",
     "role": "Game Developer",
     "description": "Game intended to teach children about recycling",
-    "url": "http://cse125.ucsd.edu/recycool/about"
+    "url": "http://cse125.ucsd.edu/recycool/about",
+    "technologies": ["Unity", "c#"]
   },
   {
     "company": "Who's That Pokemon!",
     "role": "Game Developer",
     "description": "Game built for a custom console built with a Raspberry PI, beer bottles and milk crates",
-    "url": "https://github.com/hassanshaikley/flaschen-taschen-whos-that-pokemon"
+    "url": "https://github.com/hassanshaikley/flaschen-taschen-whos-that-pokemon",
+    "technologies": ["Node.js", "c++"]
   },
   {
     "company": "Scary Spoders",
     "role": "Game Developer",
     "description": "I turned a nightmare I had as a child into a game",
-    "url": "https://github.com/hassanshaikley/scary-spoders"
+    "url": "https://github.com/hassanshaikley/scary-spoders",
+    "technologies": ["Unity", "c#"]
+
   },
   {
     "company": "TeachTCI",
     "role": "Software Developer Contract",
     "description": "Educational technology directed towards K-12",
     "term": "July 2015 - September 2015",
-    "url": "https://github.com/hassanshaikley/flaschen-taschen-whos-that-pokemon"
+    "url": "https://github.com/hassanshaikley/flaschen-taschen-whos-that-pokemon",
+    "technologies": ["Ruby on Rails", "JavaScript"]
+
   },
   {
     "company": "AutoFusion",
     "role": "Software Developer Intern",
     "description": "Developed features for a photoshop like browser application",
-    "url": "https://www.autofusion.com"
+    "url": "https://www.autofusion.com",
+    "technologies": ["PHP", "JavaScript", "MySQL"]
+
   }
 ]
