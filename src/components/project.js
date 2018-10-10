@@ -3,6 +3,11 @@ import PropTypes from "prop-types";
 const image = require("../pages/aotb.jpg");
 import Modal from "react-modal";
 
+const preventIOSScroll = (e) => {
+  e.preventDefault();
+}
+
+
 export class Project extends React.Component {
   constructor(props) {
     super(props);
@@ -27,6 +32,12 @@ export class Project extends React.Component {
   };
   render() {
     const { project } = this.props;
+    const style = {
+      content: {
+        maxWidth: '600px',
+        margin: 'auto'
+      }
+    }
     return (
       <div
         style={{ color: "rgba(0,0,0,.8)" }}
@@ -45,20 +56,25 @@ export class Project extends React.Component {
         </div>
         <Modal
           isOpen={this.state.modal}
-          style={
-            {
-              // width: '50%'
-            }
-          }
+          style={style}
           contentLabel="Example Modal"
           shouldReturnFocusAfterClose={true}
           shouldFocusAfterRender={true}
           shouldCloseOnOverlayClick={true}
           shouldCloseOnEsc={true}
-          onRequestClose={this.onClick}
-          onClick={() => {
-            console.log("crap");
+
+          onAfterOpen={() => {
+            document.documentElement.style.overflowY = 'hidden';
+            document.documentElement.addEventListener('touchmove', preventIOSScroll);
           }}
+          onRequestClose={() => {
+            console.log("REQUEST CLOSE")
+            document.documentElement.style.overflowY = 'visible';
+            document.documentElement.removeEventListener('touchmove', preventIOSScroll);
+            this.onClick()
+          }}
+
+
         >
           <div style={{ height: "100%", width: "100%" }}>
             <div id="modal-role">{project.role}</div>
@@ -94,7 +110,13 @@ export class Project extends React.Component {
             )}
 
             <br />
-            <button style={{marginBottom: '20px'}} onClick={this.onClick}>close</button>
+            <button style={{marginBottom: '20px'}} onClick={() => {
+              
+              document.documentElement.style.overflowY = 'visible';
+              document.documentElement.removeEventListener('touchmove', preventIOSScroll);
+              this.onClick()
+            
+            }}>close</button>
           </div>
         </Modal>
       </div>
