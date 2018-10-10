@@ -16,9 +16,8 @@
       "Blender",
       "Babylon.js"
     ],
-    "extendedDescription": "I oversee all of the development work and contribute primarily to the main platform. The main platform is an engine for building interactive directories for various types of properties. It plugs straight into our CMS. ",
+    "extendedDescription": "I oversee all of the development work and contribute primarily to the main engine. The main engine is a React engine that outputs interactive directories for various types of properties (Malls, Universities, Office, etc). It plugs straight into our CMS which I also oversee the development of.",
     "imgSource": "st_Laurent.jpg"
-
   },
   {
     "company": "Stellaralgo Corp.",
@@ -34,7 +33,8 @@
       "Microsoft SQL Server",
       "MongoDB"
     ],
-    "imgSource": "stellaralgo.png"
+    "imgSource": "stellaralgo.png",
+    "extendedDescription": "Mentored junior developers and produced all sorts of data visualizations for sports teams such as the LA Kings and organizations like MoMA."
   },
   {
     "company": "MIT Media Lab",
@@ -44,7 +44,8 @@
     "term": "2016 - 2017",
     "url": "https://www.pubpub.org/",
     "technologies": ["Node.js", "Express", "MongoDB", "PostgreSQL", "React"],
-    "imgSource": "pubpub.png"
+    "imgSource": "pubpub.png",
+    "extendedDescription": "Worked with an incredible team of graduate students at the MIT Media Lab in the creation of a colloborative editing and reviewing platform for scientific research. It was used by Snowden and Bunny, as well as other researchers."
   },
   {
     "company": "Ishqr",
@@ -64,7 +65,8 @@
     "term": "2015 - 2016",
     "url": "http://aotb.io/",
     "technologies": ["Express", "Socket.io", "Pixi.js", "Node.js"],
-    "imgSource": "aotb.jpg"
+    "imgSource": "aotb.jpg",
+    "extendedDescription": "Created a multiplayer browser game along with the incredibly talented Jason Davies. This game never passed Alpha. There's a newer supercharged prototype of it in a private repository but it's not ready to be deployed quite yet."
   },
   {
     "company": "Cool Ways to Recycle",
@@ -72,7 +74,8 @@
     "description": "Game intended to teach children about recycling",
     "url": "http://cse125.ucsd.edu/recycool/about",
     "technologies": ["Unity", "c#"],
-    "imgSource": "cool.jpg"
+    "imgSource": "cool.jpg",
+    "extendedDescription": "Mentored a team of programmers and worked with artists in the production of an educational game. This game was featured in the UCSD newspaper and got some attention from nearby schools."
   },
   {
     "company": "Who's That Pokemon!",

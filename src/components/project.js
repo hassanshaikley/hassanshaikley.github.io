@@ -21,7 +21,6 @@ export class Project extends React.Component {
 
   // }
   onClick = () => {
-    console.log("CLICK ", this.props.project);
     this.setState({
       modal: !this.state.modal
     });
@@ -65,9 +64,8 @@ export class Project extends React.Component {
             <div id="modal-role">{project.role}</div>
             <div id="modal-company">{project.company}</div>
             {project.technologies.map(technology => {
-              console.log("HI");
               return (
-                <span
+                <small><span
                   style={{
                     backgroundColor: "lavender",
                     borderRadius: "3px",
@@ -77,13 +75,14 @@ export class Project extends React.Component {
                 >
                   {technology}
                 </span>
+                </small>
               );
             })}
             <br />
             {project.url && <a href={project.url}>{project.url}</a>}
             {project.extendedDescription && (
-              <div style={{ marginTop: "10px" }}>
-                {project.extendedDescription}
+              <div style={{ marginTop: "10px", marginBottom: "10px" }}>
+                <small>{project.extendedDescription}</small>
               </div>
             )}
             {project.imgSource && (
@@ -95,7 +94,7 @@ export class Project extends React.Component {
             )}
 
             <br />
-            <button onClick={this.onClick}>close</button>
+            <button style={{marginBottom: '20px'}} onClick={this.onClick}>close</button>
           </div>
         </Modal>
       </div>
