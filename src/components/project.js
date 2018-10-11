@@ -35,7 +35,10 @@ export class Project extends React.Component {
     const style = {
       content: {
         maxWidth: '600px',
-        margin: 'auto'
+        margin: 'auto',
+        // height: 'fit-content',
+        // overflowY: 'scroll'
+        maxHeight: 'fit-content'
       }
     }
     return (
@@ -76,7 +79,7 @@ export class Project extends React.Component {
 
 
         >
-          <div style={{ height: "100%", width: "100%" }}>
+          <div style={{ }}>
             <div id="modal-role">{project.role}</div>
             <div id="modal-company">{project.company}</div>
             {project.technologies.map(technology => {
