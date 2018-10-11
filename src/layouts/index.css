@@ -533,6 +533,8 @@ ol li {
 }
 ul li {
   padding-left: 0;
+
+  cursor: pointer;
 }
 li > ol {
   margin-left: 1.45rem;
