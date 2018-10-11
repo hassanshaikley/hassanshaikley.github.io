@@ -113,7 +113,7 @@ export class Project extends React.Component {
             )}
 
             <br />
-            <button style={{marginBottom: '20px'}} onClick={() => {
+            <button style={{marginBottom: '10px'}} onClick={() => {
               
               document.documentElement.style.overflowY = 'visible';
               document.documentElement.removeEventListener('touchmove', preventIOSScroll);
