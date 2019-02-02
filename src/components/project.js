@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 const image = require("../pages/aotb.jpg");
-import Modal from "react-modal";
 
 const preventIOSScroll = (e) => {
   e.preventDefault();
@@ -9,79 +8,30 @@ const preventIOSScroll = (e) => {
 
 
 export class Project extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      imageDiv: undefined,
-      modal: false
-    };
-  }
 
-  // activate() {
-  //   // console.log('sup')
-  //   // <img src={image} />
-
-  // }
-  // deactivate() {
-
-  // }
-  onClick = () => {
-    this.setState({
-      modal: !this.state.modal
-    });
-  };
   render() {
     const { project } = this.props;
     const style = {
       content: {
         maxWidth: '600px',
         margin: 'auto',
-        // height: 'fit-content',
-        // overflowY: 'scroll'
         maxHeight: 'fit-content'
       }
     }
     return (
       <div
         style={{ color: "rgba(0,0,0,.8)" }}
-        // onMouseEnter={this.activate}
-        // onMouseLeave={this.deactivate}
-        onClick={this.onClick}
         className={"btn"}
       >
-        {project.role && <h4>{project.role}</h4>}
-        <h5>{project.company}</h5>
+        {project.role && <h4>{project.role } // <bold>{project.company}</bold></h4>}
 
         <div
           style={{ fontSize: "90%", lineHeight: "normal", marginTop: "7px" }}
         >
           {project.description}
         </div>
-        <Modal
-          isOpen={this.state.modal}
-          style={style}
-          contentLabel="Example Modal"
-          shouldReturnFocusAfterClose={true}
-          shouldFocusAfterRender={true}
-          shouldCloseOnOverlayClick={true}
-          shouldCloseOnEsc={true}
 
-          onAfterOpen={() => {
-            document.documentElement.style.overflowY = 'hidden';
-            document.documentElement.addEventListener('touchmove', preventIOSScroll);
-          }}
-          onRequestClose={() => {
-            console.log("REQUEST CLOSE")
-            document.documentElement.style.overflowY = 'visible';
-            document.documentElement.removeEventListener('touchmove', preventIOSScroll);
-            this.onClick()
-          }}
-
-
-        >
           <div style={{ }}>
-            <div id="modal-role">{project.role}</div>
-            <div id="modal-company">{project.company}</div>
             {project.technologies.map(technology => {
               return (
                 <small><span
@@ -104,24 +54,16 @@ export class Project extends React.Component {
                 <small>{project.extendedDescription}</small>
               </div>
             )}
-            {project.imgSource && (
+            {/* {project.imgSource && (
               <img
                 style={{ padding: "0%", width: "100%" }}
                 src={"/force/" + project.imgSource}
                 alt="Logo"
               />
-            )}
+            )} */}
 
-            <br />
-            <button style={{marginBottom: '10px', cursor: 'pointer'}} onClick={() => {
-              
-              document.documentElement.style.overflowY = 'visible';
-              document.documentElement.removeEventListener('touchmove', preventIOSScroll);
-              this.onClick()
-            
-            }}>close</button>
+
           </div>
-        </Modal>
       </div>
     );
   }

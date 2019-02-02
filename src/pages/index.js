@@ -30,6 +30,7 @@ const IndexPage = () => (
     </Left>
     <Right>
 		<ul>
+      <div id="project-container" >
     {
       projects.map(project => {
         return (
@@ -39,6 +40,7 @@ const IndexPage = () => (
       )
       })
     }
+    </div>
 		</ul>
     </Right>
     </div>

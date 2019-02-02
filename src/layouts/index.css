@@ -42,10 +42,10 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
-a:active,
+/* a:active,
 a:hover {
   outline-width: 0;
-}
+} */
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
@@ -518,12 +518,12 @@ li {
 ol li {
   padding-left: 0;
 }
-.btn:hover {
+/* .btn:hover {
   background-color: #eee;
-}
-.btn:active {
+} */
+/* .btn:active {
   background-color: lavender;
-}
+} */
 
 .btn {
   border: 1px solid #aaa;
@@ -534,7 +534,7 @@ ol li {
 ul li {
   padding-left: 0;
 
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 li > ol {
   margin-left: 1.45rem;
@@ -634,17 +634,7 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  #left-small {
-    margin-bottom: 25px;
-    font-size: "80%";
-  }
-}
+
 
 .vertical-timeline {
   margin: 0;
@@ -690,3 +680,51 @@ h4 {
 #modal-company {
   font-size: 18px;
 }
+
+/* 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #left-small {
+    margin-bottom: 25px;
+    font-size: "80%";
+  }
+
+  
+  
+}
+#right-div {
+  width: 60%; 
+  /* min-width: 310px; */
+}
+
+@media only screen and (max-width: 676px) {
+
+
+  #___gatsby > div > div:nth-child(2) > div > div:nth-child(1) {
+    display: block;
+    margin: auto;
+    width: fit-content;
+  }
+
+  #project-container {
+    margin: auto;
+    /* width: fit-content; */
+    width: unset;
+  }
+
+  #right-div {
+    width: stretch;
+
+  }
+}
+

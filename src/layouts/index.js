@@ -38,7 +38,7 @@ const Header = () => (
         </div>
       </Left>
       <Right>
-      Director of Software Development at youRhere 
+      Director of Software Development at youRhere Inc.
       <br /><small>Experience with React, Phoenix, Meteor, Ruby on Rails and various SQL & NoSQL Databases</small>
       </Right>
     </div>
