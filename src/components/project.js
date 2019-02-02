@@ -50,7 +50,7 @@ export class Project extends React.Component {
             <br />
             {project.url && <a href={project.url}>{project.url}</a>}
             {project.extendedDescription && (
-              <div style={{ marginTop: "10px", marginBottom: "10px" }}>
+              <div style={{ marginTop: "10px" }}>
                 <small>{project.extendedDescription}</small>
               </div>
             )}
