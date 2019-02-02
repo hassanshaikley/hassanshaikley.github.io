@@ -111,18 +111,17 @@
     "url": "https://github.com/hassanshaikley/scary-spoders",
     "technologies": ["Unity", "c#"],
     "imgSource": "spoder.png",
-    "extendedDescription": "This open source game"
+    "extendedDescription": "The game is open source and you can find playable builds on GitHub."
   },
   {
     "company": "TeachTCI",
     "role": "Software Developer Contract",
     "description": "Educational technology directed towards K-12",
     "term": "July 2015 - September 2015",
-    "url":
-      "https://github.com/hassanshaikley/flaschen-taschen-whos-that-pokemon",
+    "url": "https://www.teachtci.com/",
     "technologies": ["Ruby on Rails", "JavaScript"],
     "imgSource": "tci.jpg",
-    "extendedDescription": "Conributed full stack and mentored a junior developer. I wrote a lot of Rails code and paired often with the senior engineers."
+    "extendedDescription": "Contributed full stack and mentored a junior developer. I wrote a lot of Rails code and paired often with senior engineers."
   },
   {
     "company": "AutoFusion",
