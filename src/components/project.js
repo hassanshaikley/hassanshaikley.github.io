@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-const image = require("../pages/aotb.jpg");
 
 const preventIOSScroll = (e) => {
   e.preventDefault();
@@ -19,10 +18,15 @@ export class Project extends React.Component {
       }
     }
     return (
+     
       <div
         style={{ color: "rgba(0,0,0,.8)" }}
-        className={"btn"}
+
       >
+ 
+
+                  <div>
+
         {project.role && <h4>{project.role } // <bold>{project.company}</bold></h4>}
 
         <div
@@ -32,7 +36,7 @@ export class Project extends React.Component {
         </div>
 
           <div style={{ }}>
-            {project.technologies.map(technology => {
+            {project.technologies && project.technologies.map(technology => {
               return (
                 <small><span
                   style={{
@@ -47,24 +51,26 @@ export class Project extends React.Component {
                 </small>
               );
             })}
-            <br />
+            {project.technologies && <br />}
             {project.url && <a href={project.url}>{project.url}</a>}
             {project.extendedDescription && (
-              <div style={{ marginTop: "10px" }}>
-                <small>{project.extendedDescription}</small>
+              <div style={{ marginTop: "10px", marginBottom: "10px" }}>
+                {/* <small>{project.extendedDescription}</small> */}
               </div>
             )}
-            {/* {project.imgSource && (
-              <img
-                style={{ padding: "0%", width: "100%" }}
-                src={"/force/" + project.imgSource}
-                alt="Logo"
-              />
-            )} */}
-
+  
 
           </div>
+          {project.imgSource && (
+              <img
+                style={{ padding: "0%", width: "100%", marginBottom: 0 }}
+                src={"/" + project.imgSource}
+                alt="Logo"
+              />
+            )}
       </div>
+      </div>
+
     );
   }
 }

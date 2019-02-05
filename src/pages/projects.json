@@ -1,7 +1,6 @@
 [
   {
     "company": "Stabby Flies",
-    "role": "Developer",
     "description": "Multiplayer browser game built in Elixir/Phoenix",
     "term": "November 2018 - Present",
     "url": "https://meaty-spiffy-hermitcrab.gigalixirapp.com",
@@ -11,127 +10,37 @@
       "Node.js",
       "Pixi.js"
     ],
-    "extendedDescription": "A mulitplayer browser game as well as an exploration of Phoenix, Elixir & OTP.",
     "imgSource": "stabby_flies.png"
   },
   {
-    "company": "youRhere",
-    "role": "Director of Development",
-    "description": "Plan, architect, direct & deliver various projects",
-    "term": "February 2018 - Present",
-    "url": "http://yourhere.ca/",
-    "technologies": [
-      "React",
-      "Hapi",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Redis",
-      "WebGL",
-      "Blender",
-      "Babylon.js"
-    ],
-    "extendedDescription": "I oversee all of the development work and contribute primarily to the main engine. The main engine is a React engine that outputs interactive directories for various types of properties (Malls, Universities, Office, etc). It plugs straight into our CMS which I also oversee the development of.",
-    "imgSource": "st_Laurent.jpg"
-  },
-  {
-    "company": "Stellaralgo Corp.",
-    "role": "JavaScript Developer",
-    "description":
-      "Created Data Visualizations for the LA Kings, Calgary Flames and others",
-    "term": "July 2017 - November 2017",
-    "url": "http://www.stellaralgo.com",
-    "technologies": [
-      "Node.js",
-      "Meteor",
-      "HighCharts",
-      "Microsoft SQL Server",
-      "MongoDB"
-    ],
-    "imgSource": "stellaralgo.png",
-    "extendedDescription": "Mentored junior developers and produced all sorts of data visualizations for sports teams such as the LA Kings and organizations like MoMA."
-  },
-  {
-    "company": "PubPub",
-    "role": "JavaScript Developer",
-    "description":
-      "Contributed to PubPub; a Platform for collaborative science",
-    "term": "2016 - 2017",
-    "url": "https://www.pubpub.org/",
-    "technologies": ["Node.js", "Express", "MongoDB", "PostgreSQL", "React"],
-    "imgSource": "pubpub.png",
-    "extendedDescription": "Worked with an incredible team of graduate students at the MIT Media Lab in the creation of a collaborative editing and reviewing platform for scientific research. Its' list of users includes Snowden and Bunny."
-  },
-  {
-    "company": "Ishqr",
-    "role": "Technical Co-founder",
-    "description": "Dating startup focused on Muslim Americans",
-    "term": "2013 - 2015",
-    "url": "http://ishqr.com",
-    "technologies": ["Ruby on Rails", "PostgreSQL", "Bootstrap"],
-    "imgSource": "ishqr.png",
-    "extendedDescription":
-      "Cofounded a dating startup that went viral and was incubated in a startup accelerator"
-  },
-  {
     "company": "Arena of the Bits",
-    "role": "Game Developer",
     "description": "Multiplayer Browser Game",
     "term": "2015 - 2016",
     "url": "http://aotb.io/",
     "technologies": ["Express", "Socket.io", "Pixi.js", "Node.js"],
-    "imgSource": "aotb.jpg",
-    "extendedDescription": "Created a multiplayer browser game along with the incredibly talented Jason Davies. This game never passed Alpha. There's a newer supercharged prototype of it in a private repository but it's not ready to be deployed quite yet."
+    "imgSource": "aotb.jpg"
   },
   {
     "company": "Cool Ways to Recycle",
-    "role": "Game Developer",
     "description": "Game intended to teach children about recycling",
     "url": "http://cse125.ucsd.edu/recycool/about",
     "technologies": ["Unity", "c#"],
-    "imgSource": "cool.jpg",
-    "extendedDescription": "Mentored a team of programmers and worked with artists in the production of an educational game. This game was featured in the UCSD newspaper and got some attention from nearby schools."
+    "imgSource": "cool.jpg"
   },
   {
     "company": "Who's That Pokemon!",
-    "role": "Game Developer",
     "description":
       "Game built for a custom console built with a Raspberry PI, beer bottles and milk crates",
     "url":
       "https://github.com/hassanshaikley/flaschen-taschen-whos-that-pokemon",
     "technologies": ["Node.js", "c++"],
-    "imgSource": "flaschen.jpg",
-    "extendedDescription":
-      "Made this awesome game! However I have no image of it in action unfortunately. This is an image of the flaschen taschen which is a console made out of beer bottles, milk crates & a raspberry PI."
+    "imgSource": "flaschen.jpg"
   },
   {
     "company": "Scary Spoders",
-    "role": "Game Developer",
     "description": "I turned a nightmare I had as a child into a game",
     "url": "https://github.com/hassanshaikley/scary-spoders",
     "technologies": ["Unity", "c#"],
-    "imgSource": "spoder.png",
-    "extendedDescription": "The game is open source and you can find playable builds on GitHub."
-  },
-  {
-    "company": "TeachTCI",
-    "role": "Software Developer Contract",
-    "description": "Educational technology directed towards K-12",
-    "term": "July 2015 - September 2015",
-    "url": "https://www.teachtci.com/",
-    "technologies": ["Ruby on Rails", "JavaScript"],
-    "imgSource": "tci.jpg",
-    "extendedDescription": "Contributed full stack and mentored a junior developer. I wrote a lot of Rails code and paired often with senior engineers."
-  },
-  {
-    "company": "AutoFusion",
-    "role": "Software Developer Intern",
-    "description":
-      "Developed features for a photoshop like browser application",
-    "url": "https://www.autofusion.com",
-    "technologies": ["PHP", "JavaScript", "MySQL"],
-    "imgSource": "af.png",
-    "extendedDescription": "Worked on a photoshop like application optimized for creating car dealership advertisements. It was a lot of intensive frontend programming."
-
+    "imgSource": "spoder.png"
   }
 ]

@@ -1,0 +1,83 @@
+[
+    {
+      "company": "youRhere",
+      "role": "Director of Software Development",
+      "description": "Plan, architect, direct & deliver various projects",
+      "term": "February 2018 - Present",
+      "url": "http://yourhere.ca/",
+      "technologies": [
+        "React",
+        "Hapi",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Redis",
+        "WebGL",
+        "Blender",
+        "Babylon.js"
+      ],
+      "extendedDescription": "I oversee all of the development work and contribute primarily to the main engine. The main engine is a React engine that outputs interactive directories for various types of properties (Malls, Universities, Office, etc). It plugs straight into our CMS which I also oversee the development of.",
+      "_imgSource": "st_Laurent.jpg"
+    },
+    {
+      "company": "Stellaralgo Corp.",
+      "role": "JavaScript Developer",
+      "description":
+        "Created Data Visualizations for the LA Kings, Calgary Flames and others",
+      "term": "July 2017 - November 2017",
+      "url": "http://www.stellaralgo.com",
+      "technologies": [
+        "Node.js",
+        "Meteor",
+        "HighCharts",
+        "Microsoft SQL Server",
+        "MongoDB"
+      ],
+      "_imgSource": "stellaralgo.png",
+      "extendedDescription": "Mentored junior developers and produced all sorts of data visualizations for sports teams such as the LA Kings and organizations like MoMA."
+    },
+    {
+      "company": "PubPub",
+      "role": "JavaScript Developer",
+      "description":
+        "Contributed to PubPub; a Platform for collaborative science",
+      "term": "2016 - 2017",
+      "url": "https://www.pubpub.org/",
+      "technologies": ["Node.js", "Express", "MongoDB", "PostgreSQL", "React"],
+      "_imgSource": "pubpub.png",
+      "extendedDescription": "Worked with an incredible team of graduate students at the MIT Media Lab in the creation of a collaborative editing and reviewing platform for scientific research. Its' list of users includes Snowden and Bunny."
+    },
+    {
+      "company": "Ishqr",
+      "role": "Technical Co-founder",
+      "description": "Dating startup focused on Muslim Americans",
+      "term": "2013 - 2015",
+      "url": "http://ishqr.com",
+      "technologies": ["Ruby on Rails", "PostgreSQL", "Bootstrap"],
+      "_imgSource": "ishqr.png",
+      "extendedDescription":
+        "Cofounded a dating startup that went viral and was incubated in a startup accelerator"
+    },
+    {
+      "company": "TeachTCI",
+      "role": "Software Developer Contract",
+      "description": "Educational technology directed towards K-12",
+      "term": "July 2015 - September 2015",
+      "url": "https://www.teachtci.com/",
+      "technologies": ["Ruby on Rails", "JavaScript"],
+      "_imgSource": "tci.jpg",
+      "extendedDescription": "Contributed full stack and mentored a junior developer. I wrote a lot of Rails code and paired often with senior engineers."
+    },
+    {
+      "company": "AutoFusion",
+      "role": "Software Developer Intern",
+      "description":
+        "Developed features for a photoshop like browser application",
+      "url": "https://www.autofusion.com",
+      "technologies": ["PHP", "JavaScript", "MySQL"],
+      "_imgSource": "af.png",
+      "extendedDescription": "Worked on a photoshop like application optimized for creating car dealership advertisements. It was a lot of intensive frontend programming."
+  
+    }
+  ]
+  
