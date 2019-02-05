@@ -3,9 +3,20 @@ import Link from 'gatsby-link'
 
 import {Left} from '../components/left';
 import {Right} from '../components/right';
+import banf from './banf.jpg'; // Tell Webpack this JS file uses this image
+
+
 
 const projects = require('./projects.json')
 const resumeProjects = require('./resume.json')
+
+const MeAtBanff =() => (
+	<div>
+		<img style={{marginBottom: '0px', margin: 'auto', display: 'block', width: '100%'}} src={banf} alt="A picture of me drinking coffee at Banff National Park." />
+		</div>
+)
+
+
 
 import { Project } from '../components/project'
 const IndexPage = () => (
@@ -14,6 +25,7 @@ const IndexPage = () => (
       background: '#FEFEFF',
     }}
   >
+
   <div
     style={{
       margin: '0 auto',
@@ -40,7 +52,7 @@ const IndexPage = () => (
 
       <br />
       <br />
-      I am really interested in functional programming, creating beautiful and functional frontends, and distributing/parallelizing computation. I am very interested in Game servers and that is partially what drew me to Elixir/Erlang and put learning Rust on my roadmap.
+      I am really interested in functional programming, creating beautiful and functional frontends, and distributing/parallelizing computation. I am very interested in Game servers which is partially what drew me to Elixir/Erlang and put learning Rust on my roadmap.
       <br />
       <br />
 
@@ -61,7 +73,7 @@ const IndexPage = () => (
       resumeProjects.map(project => {
         return (
           <li key={project.description} style={{marginBottom: '25px'}}>
-            <Project project={project} />
+            <Project project={project} paid={true}/>
           </li>
       )
       })
@@ -83,7 +95,7 @@ const IndexPage = () => (
       projects.map(project => {
         return (
           <li key={project.description} style={{marginBottom: '25px'}}>
-            <Project project={project} />
+            <Project project={project} paid={false}/>
           </li>
       )
       })
@@ -92,6 +104,7 @@ const IndexPage = () => (
 		</ul>
     </Right>
     </div>
+    <MeAtBanff />
 
   </div>
 )

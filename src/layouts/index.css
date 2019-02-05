@@ -728,3 +728,21 @@ h4 {
   }
 }
 
+
+.projectInfo {
+
+}
+.projectImg {
+
+}
+
+.unpaidProject, .unpaidProjectImg {
+
+  width: 50%;
+  display: inline-block;
+}
+
+
+.unpaidProject {
+  float: left;
+}

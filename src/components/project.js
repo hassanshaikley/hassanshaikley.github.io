@@ -9,7 +9,7 @@ const preventIOSScroll = (e) => {
 export class Project extends React.Component {
 
   render() {
-    const { project } = this.props;
+    const { project, paid } = this.props;
     const style = {
       content: {
         maxWidth: '600px',
@@ -18,16 +18,13 @@ export class Project extends React.Component {
       }
     }
     return (
-     
-      <div
-        style={{ color: "rgba(0,0,0,.8)" }}
-
+           <div
+        style={{ color: "rgba(0,0,0,.8)"}}
       >
- 
-
-                  <div>
+           <div className="projectInfo" className={paid ? "paidProject" : "unpaidProject"}>
 
         {project.role && <h4>{project.role } // <bold>{project.company}</bold></h4>}
+        {!project.role && <h4><bold>{project.company}</bold></h4>}
 
         <div
           style={{ fontSize: "90%", lineHeight: "normal", marginTop: "7px" }}
@@ -53,22 +50,20 @@ export class Project extends React.Component {
             })}
             {project.technologies && <br />}
             {project.url && <a href={project.url}>{project.url}</a>}
-            {project.extendedDescription && (
-              <div style={{ marginTop: "10px", marginBottom: "10px" }}>
-                {/* <small>{project.extendedDescription}</small> */}
-              </div>
-            )}
-  
-
           </div>
-          {project.imgSource && (
-              <img
+
+      </div>
+      {project.imgSource && (
+        <div className={paid ? "paidProjectImg" : "unpaidProjectImg"}>
+                        <img
+              className="projectImg"
                 style={{ padding: "0%", width: "100%", marginBottom: 0 }}
                 src={"/" + project.imgSource}
                 alt="Logo"
               />
+          </div>
+
             )}
-      </div>
       </div>
 
     );
