@@ -736,13 +736,19 @@ h4 {
 
 }
 
-.unpaidProject, .unpaidProjectImg {
+.unpaidProject, .unpaidProjectImg  {
 
-  width: 50%;
+  width: 60%;
   display: inline-block;
+}
+
+.unpaidProjectImg {
+  width: 40%;
+  
 }
 
 
 .unpaidProject {
   float: left;
+  
 }

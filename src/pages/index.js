@@ -44,19 +44,16 @@ const IndexPage = () => (
     </Left>
     <Right>
       <p>
-      Hi! I'm Hassan Shaikley. I am the Director of Software Development at youRhere Interactive Directories. At youRhere I write lots of React and review a lot of server code.
+      Hi! I'm Hassan Shaikley. I am the Director of Software Development at youRhere Interactive Directories where I write lots of React and review a lot of server code.
     <br />
     <br />
-  
-      I received my Bachelors of Science in Computer Science from the University of California San Diego. In my third year I left to focus on a startup that went viral and earned a spot at a startup accelerator, after which I did go back to finish my degree.
-
+      I received my Bachelors of Science in Computer Science from the University of California San Diego. In my third year I left to focus on a startup that went viral and earned a spot at a startup accelerator. Afterwards I went back to finish my degree.
       <br />
       <br />
-      I am really interested in functional programming, creating beautiful and functional frontends, and distributing/parallelizing computation. I am very interested in Game servers which is partially what drew me to Elixir/Erlang and put learning Rust on my roadmap.
+      I am really interested in functional programming, creating beautiful and functional frontends, Game Servers, Elixir/Erlang, and distributing/parallelizing computation. I am also interested in Rust and lower level programmign but I have yet to really venture in that direction.
       <br />
       <br />
-
-      I spend my down time toying with Elixir, gardening, making games, playing Overwatch, and cooking.
+      I spend my free time toying with Elixir, playing guitar, gardening, making games, and playing Overwatch.
       </p>
     </Right>
 
