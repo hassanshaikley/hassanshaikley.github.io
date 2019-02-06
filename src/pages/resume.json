@@ -1,7 +1,7 @@
 [
     {
       "company": "youRhere",
-      "role": "Director of Software Development",
+      "role": "Director of Development",
       "description": "Plan, architect, direct & deliver various projects",
       "term": "February 2018 - Present",
       "url": "http://yourhere.ca/",
@@ -60,7 +60,7 @@
     },
     {
       "company": "TeachTCI",
-      "role": "Software Developer Contract",
+      "role": "Software Developer",
       "description": "Educational technology directed towards K-12",
       "term": "July 2015 - September 2015",
       "url": "https://www.teachtci.com/",
@@ -70,7 +70,7 @@
     },
     {
       "company": "AutoFusion",
-      "role": "Software Developer Intern",
+      "role": "Intern",
       "description":
         "Developed features for a photoshop like browser application",
       "url": "https://www.autofusion.com",

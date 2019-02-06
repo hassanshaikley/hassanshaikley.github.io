@@ -81,7 +81,7 @@ const IndexPage = () => (
 
     <div style={{width: '100%'}}>
     <Left>
-  		<h1>Portfolio</h1>
+  		<h1 style={{float: 'left'}}>Portfolio</h1>
       <div id="left-small">
       {/* Frontends, Backends, Data Visualizations, APIs, Prototypes, Games */}
       </div>
