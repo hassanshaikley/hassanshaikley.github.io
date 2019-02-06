@@ -21,6 +21,13 @@
     "imgSource": "aotb.jpg"
   },
   {
+    "company": "Bitmaps to BDF",
+    "description": "A tool I made to create bitmap fonts visually",
+    "url": "  https://github.com/hassanshaikley/bitmaps-to-bdf",
+    "technologies": ["c++"],
+    "imgSource": "bdf.png"
+  },
+  {
     "company": "Cool Ways to Recycle",
     "description": "Game intended to teach children about recycling",
     "url": "http://cse125.ucsd.edu/recycool/about",
@@ -42,5 +49,12 @@
     "url": "https://github.com/hassanshaikley/scary-spoders",
     "technologies": ["Unity", "c#"],
     "imgSource": "spoder.png"
+  },
+  {
+    "company": "Menu Me",
+    "description": "A mobile app prototype I made to keep track of the meals I have at home",
+    "url": "https://github.com/hassanshaikley/menu-me",
+    "technologies": ["React-Native"],
+    "imgSource": "menu_me.jpg"
   }
 ]
