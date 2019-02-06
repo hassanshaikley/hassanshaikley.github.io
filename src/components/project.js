@@ -17,11 +17,15 @@ export class Project extends React.Component {
         maxHeight: 'fit-content'
       }
     }
+    // display: grid;
+    // grid-template-columns: 60% 40%;
+
     return (
            <div
-        style={{ color: "rgba(0,0,0,.8)"}}
+        style={{ color: "rgba(0,0,0,.8)" }}
+        className={paid ? "paidProject" : "unpaidProject"}
       >
-           <div className="projectInfo" className={paid ? "paidProject" : "unpaidProject"}>
+           <div className="projectInfo" >
 
         {project.role && <h4>{project.role } // <bold>{project.company}</bold></h4>}
         {!project.role && <h4><bold>{project.company}</bold></h4>}

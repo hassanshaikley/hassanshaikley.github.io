@@ -36,24 +36,24 @@ const IndexPage = () => (
       width: '100%'
     }}
   >
-      <Left>
-  		<h1>About Me</h1>
+      <Left style={{margin: 0}}>
+  		<h1 >About Me</h1>
       <div id="left-small">
        {/* Software Developer */}
       </div>
     </Left>
     <Right>
       <p>
-      Hi! I'm Hassan Shaikley. I am the Director of Software Development at youRhere Interactive Directories where I write lots of React and review a lot of server code.
+      Hi! I'm Hassan Shaikley. I am the Director of Software Development at youRhere Interactive Directories where I write a lot of React and review a lot of server code.
     <br />
     <br />
       I received my Bachelors of Science in Computer Science from the University of California San Diego. In my third year I left to focus on a startup that went viral and earned a spot at a startup accelerator. Afterwards I went back to finish my degree.
       <br />
       <br />
-      I am really interested in functional programming, creating beautiful and functional frontends, Game Servers, Elixir/Erlang, and distributing/parallelizing computation. I am also interested in Rust and lower level programmign but I have yet to really venture in that direction.
+      I am really interested in functional programming, creating beautiful and functional frontends, game servers, Elixir + Erlang, and distributing computation. I am also interested in Rust and Nerves but I have yet to seriously venture in that direction.
       <br />
       <br />
-      I spend my free time toying with Elixir, playing guitar, gardening, making games, and playing Overwatch.
+      I spend my free time walking my chihuahua, toying with Elixir, playing guitar, gardening, making games, and playing Overwatch.
       </p>
     </Right>
 
@@ -79,6 +79,7 @@ const IndexPage = () => (
 		</ul>
     </Right>
 
+    <div style={{width: '100%'}}>
     <Left>
   		<h1>Portfolio</h1>
       <div id="left-small">
@@ -100,6 +101,9 @@ const IndexPage = () => (
     </div>
 		</ul>
     </Right>
+    </div>
+
+
     </div>
     <MeAtBanff />
 
