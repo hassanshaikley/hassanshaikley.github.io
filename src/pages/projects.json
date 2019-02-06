@@ -41,7 +41,7 @@
     "url":
       "https://github.com/hassanshaikley/flaschen-taschen-whos-that-pokemon",
     "technologies": ["Node.js", "c++"],
-    "imgSource": "flaschen.jpg"
+    "imgSource": "flaschen.png"
   },
   {
     "company": "Scary Spoders",
