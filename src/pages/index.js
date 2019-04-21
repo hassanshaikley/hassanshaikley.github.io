@@ -9,6 +9,8 @@ import banf from './banf.jpg'; // Tell Webpack this JS file uses this image
 
 const projects = require('./projects.json')
 const resumeProjects = require('./resume.json')
+const blogPosts = require('./posts.json')
+
 
 const MeAtBanff = () => (
   <div>
@@ -82,9 +84,6 @@ const IndexPage = () => (
       <div style={{ width: '100%' }}>
         <Left>
           <h1 style={{ float: 'left' }}>Portfolio</h1>
-          <div id="left-small">
-            {/* Frontends, Backends, Data Visualizations, APIs, Prototypes, Games */}
-          </div>
         </Left>
         <Right>
           <ul>
@@ -105,19 +104,23 @@ const IndexPage = () => (
 
 
 
-      <Left style={{ opacity: .5 }}>
+      <Left style={{}}>
         <h1>Blog</h1>
         <div id="left-small">
           {/* Coming Soon */}
         </div>
       </Left>
-      <Right style={{ opacity: .5 }}>
-        <h3>Coming Soon</h3>
-        {/* <ul>
-          <div id="project-container" >
-
+      <Right style={{}}>
+        {/* <h3>Coming Soon</h3> */}
+        {blogPosts.map(blogPost => (
+          <div>
+            <Link to={`/blog#${blogPost.title.replace(/ /g, '-')}`}>
+              <h4>
+                {blogPost.title}
+              </h4>
+            </Link>
           </div>
-        </ul> */}
+        ))}
       </Right>
     </div>
 
