@@ -73,7 +73,7 @@
   },
   {
     "company": "TeachTCI",
-    "role": "Software Developer",
+    "role": "Software Engineering Intern",
     "description": "Educational technology directed towards K-12",
     "term": "July 2015 - September 2015",
     "url": "https://www.teachtci.com/",
@@ -100,7 +100,7 @@
   },
   {
     "company": "AutoFusion",
-    "role": "Intern",
+    "role": "Software Engineering Intern",
     "description": "Developed features for a photoshop like browser application",
     "url": "https://www.autofusion.com",
     "technologies": [
