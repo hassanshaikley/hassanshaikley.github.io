@@ -41,7 +41,7 @@
   },
   {
     "company": "Stellaralgo",
-    "role": "JavaScript Developer",
+    "role": "Full Stack Developer",
     "description": "Created Data Visualizations for the LA Kings, Calgary Flames and others",
     "term": "July 2017 - November 2017",
     "url": "http://www.stellaralgo.com",
@@ -57,7 +57,7 @@
   },
   {
     "company": "PubPub",
-    "role": "JavaScript Developer",
+    "role": "Full Stack Developer",
     "description": "Contributed to PubPub; a Platform for collaborative science",
     "term": "2016 - 2017",
     "url": "https://www.pubpub.org/",
@@ -73,7 +73,7 @@
   },
   {
     "company": "TeachTCI",
-    "role": "Software Engineering Intern",
+    "role": "Full Stack Developer Intern",
     "description": "Educational technology directed towards K-12",
     "term": "July 2015 - September 2015",
     "url": "https://www.teachtci.com/",
@@ -100,7 +100,7 @@
   },
   {
     "company": "AutoFusion",
-    "role": "Software Engineering Intern",
+    "role": "Full Stack Developer Intern",
     "description": "Developed features for a photoshop like browser application",
     "url": "https://www.autofusion.com",
     "technologies": [
