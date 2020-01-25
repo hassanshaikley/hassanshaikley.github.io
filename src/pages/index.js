@@ -46,13 +46,13 @@ const IndexPage = () => (
       </Left>
       <Right>
         <p>
-          Hi! I'm Hassan Shaikley. I am currently an intermediate Software Engineer at Weedmaps where I write & review code written in Elixir.
+          Hi! I'm Hassan Shaikley. I am currently a Software Engineer III at Weedmaps where I write & review code written in Elixir.
     <br />
           <br />
-          I received my Bachelors of Science in Computer Science from the University of California San Diego. In my third year I left to focus on a startup that went viral and earned a spot at a startup accelerator. Afterwards I went back to finish my degree.
+          I received my Bachelors of Science in Computer Science from the University of California San Diego in 2016. In my third year I left to focus on a startup that went viral and earned a spot at a startup accelerator. Afterwards I went back to finish my degree.
       <br />
           <br />
-          I am really interested in functional programming, React & creating beautiful and organized frontends, game servers, Elixir/Erlang/BEAM, and distributed computation. I am also interested in Rust for its use as a game server language and Nerves for embedded programming but I have yet to start learning those two technologies.
+          I am really interested in functional programming, React & creating beautiful and organized frontends, game servers, Elixir/Erlang/BEAM, and distributed computation as well as emedding programming with Nerves. I am also interested in Rust but have yet to start using it.
       <br />
           <br />
           I spend my free time walking my chihuahua, tinkering with hardware and software, playing guitar, gardening, making games, and playing Mercy on Overwatch.
@@ -104,14 +104,12 @@ const IndexPage = () => (
 
 
 
-      <Left style={{}}>
+      {/* <Left style={{}}>
         <h1>Blog</h1>
         <div id="left-small">
-          {/* Coming Soon */}
         </div>
       </Left>
       <Right style={{}}>
-        {/* <h3>Coming Soon</h3> */}
         {blogPosts.map(blogPost => (
           <div>
             <Link to={`/blog#${blogPost.title.replace(/ /g, '-')}`}>
@@ -121,7 +119,7 @@ const IndexPage = () => (
             </Link>
           </div>
         ))}
-      </Right>
+      </Right> */}
     </div>
 
 

@@ -1,5 +1,15 @@
 [
   {
+    "company": "Chaosbeat",
+    "description": "Play a song as your pixel band",
+    "url": "https://lilsheep.itch.io/chaosbeat",
+    "technologies": [
+      "Node.js",
+      "Pixi.js"
+    ],
+    "imgSource": "chaosbeat.png"
+  },
+  {
     "company": "Stabby Flies",
     "description": "Multiplayer browser game built in Elixir/Phoenix",
     "term": "November 2018 - Present",
@@ -17,44 +27,60 @@
     "description": "Multiplayer Browser Game",
     "term": "2015 - 2016",
     "url": "http://aotb.io/",
-    "technologies": ["Express", "Socket.io", "Pixi.js", "Node.js"],
+    "technologies": [
+      "Express",
+      "Socket.io",
+      "Pixi.js",
+      "Node.js"
+    ],
     "imgSource": "aotb.jpg"
   },
   {
     "company": "Bitmaps to BDF",
     "description": "A tool I made to create bitmap fonts visually",
     "url": "  https://github.com/hassanshaikley/bitmaps-to-bdf",
-    "technologies": ["c++"],
+    "technologies": [
+      "c++"
+    ],
     "imgSource": "bdf.png"
   },
   {
     "company": "Cool Ways to Recycle",
     "description": "Game intended to teach children about recycling",
     "url": "http://cse125.ucsd.edu/recycool/about",
-    "technologies": ["Unity", "c#"],
+    "technologies": [
+      "Unity",
+      "c#"
+    ],
     "imgSource": "cool.jpg"
   },
   {
     "company": "Who's That Pokemon!",
-    "description":
-      "Game built for a custom console built with a Raspberry PI, beer bottles and milk crates",
-    "url":
-      "https://github.com/hassanshaikley/flaschen-taschen-whos-that-pokemon",
-    "technologies": ["Node.js", "c++"],
+    "description": "Game built for a custom console built with a Raspberry PI, beer bottles and milk crates",
+    "url": "https://github.com/hassanshaikley/flaschen-taschen-whos-that-pokemon",
+    "technologies": [
+      "Node.js",
+      "c++"
+    ],
     "imgSource": "flaschen.png"
   },
   {
     "company": "Scary Spoders",
     "description": "I turned a nightmare I had as a child into a game",
     "url": "https://github.com/hassanshaikley/scary-spoders",
-    "technologies": ["Unity", "c#"],
+    "technologies": [
+      "Unity",
+      "c#"
+    ],
     "imgSource": "spoder.png"
   },
   {
     "company": "Menu Me",
     "description": "A mobile app prototype I made to keep track of the meals I have at home",
     "url": "https://github.com/hassanshaikley/menu-me",
-    "technologies": ["React-Native"],
+    "technologies": [
+      "React-Native"
+    ],
     "imgSource": "menu_me.jpg"
   }
 ]
