@@ -55,7 +55,7 @@ const IndexPage = () => (
           I am really interested in functional programming, React & creating beautiful and organized frontends, game servers, Elixir/Erlang/BEAM, and distributed computation as well as embedded programming with Nerves. I am also interested in Rust but have yet to start using it. Lately I have been too busy tinkering with the BEAM, three.js and nerves. I feel very fond towards the BEAM due to it being an ingenius implementation of the actor model.
       <br />
           <br />
-          I spend my free time walking my chihuahua, tinkering with hardware and software, playing the guitar, gardening, making games, playing Mercy on Overwatch and playing Animal Crossing.
+          I spend my free time hanging out with my beautiful wife, walking my chihuahua, tinkering with hardware and software, playing the guitar, gardening, making games, playing Mercy on Overwatch and playing Animal Crossing.
       </p>
       </Right>
 
