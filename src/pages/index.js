@@ -52,10 +52,10 @@ const IndexPage = () => (
           I received my Bachelors of Science in Computer Science from the University of California San Diego in 2016. In my third year I left to focus on a startup that went viral and earned a spot at a startup accelerator. Afterwards I went back to finish my degree.
       <br />
           <br />
-          I am really interested in functional programming, React & creating beautiful and organized frontends, game servers, Elixir/Erlang/BEAM, and distributed computation as well as emedding programming with Nerves. I am also interested in Rust but have yet to start using it.
+          I am really interested in functional programming, React & creating beautiful and organized frontends, game servers, Elixir/Erlang/BEAM, and distributed computation as well as embedded programming with Nerves. I am also interested in Rust but have yet to start using it. Lately I have been too busy tinkering with the BEAM, three.js and nerves. I feel very fond towards the BEAM due to it being an ingenius implementation of the actor model.
       <br />
           <br />
-          I spend my free time walking my chihuahua, tinkering with hardware and software, playing guitar, gardening, making games, and playing Mercy on Overwatch.
+          I spend my free time walking my chihuahua, tinkering with hardware and software, playing the guitar, gardening, making games, playing Mercy on Overwatch and playing Animal Crossing.
       </p>
       </Right>
 

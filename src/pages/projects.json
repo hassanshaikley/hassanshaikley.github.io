@@ -1,5 +1,28 @@
 [
   {
+    "company": "Raspberry PI Drum Machine",
+    "description": "Turn your Raspberry PI into a touchscreen drum machine.",
+    "technologies": [
+      "Nerves",
+      "Elixir",
+      "Raspberry PI",
+      "Scenic",
+      "Touchscreen"
+    ],
+    "imgSource": "drum_machine_screenshot.png"
+  },
+  {
+    "company": "A-Frame Character Editor",
+    "description": "Character editor like the ones you see in RPG games built for the browser",
+    "technologies": [
+      "A-Frame",
+      "Three.js",
+      "Javascript",
+      "Webpack"
+    ],
+    "imgSource": "af2.png"
+  },
+  {
     "company": "Chaosbeat",
     "description": "Play a song as your pixel band",
     "url": "https://lilsheep.itch.io/chaosbeat",
@@ -11,7 +34,7 @@
   },
   {
     "company": "Stabby Flies",
-    "description": "Multiplayer browser game built in Elixir/Phoenix",
+    "description": "Multiplayer browser game (io game) built with Elixir/Phoenix",
     "term": "November 2018 - Present",
     "url": "https://meaty-spiffy-hermitcrab.gigalixirapp.com",
     "technologies": [
@@ -26,7 +49,7 @@
     "company": "Arena of the Bits",
     "description": "Multiplayer Browser Game",
     "term": "2015 - 2016",
-    "url": "http://aotb.io/",
+    "url": "https://github.com/hassanshaikley/arena-of-the-bits",
     "technologies": [
       "Express",
       "Socket.io",
@@ -37,7 +60,7 @@
   },
   {
     "company": "Bitmaps to BDF",
-    "description": "A tool I made to create bitmap fonts visually",
+    "description": "A tool I made to create bitmap fonts visually for a custom Raspberry PI Console called the Flaschen Taschen",
     "url": "  https://github.com/hassanshaikley/bitmaps-to-bdf",
     "technologies": [
       "c++"
