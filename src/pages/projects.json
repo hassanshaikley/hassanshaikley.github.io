@@ -74,8 +74,8 @@
   },
   {
     "company": "Cool Ways to Recycle",
-    "description": "Game intended to teach children about recycling",
-    "demoUrl": "http://cse125.ucsd.edu/recycool/about",
+    "description": "Unity Game intended to teach children about recycling",
+    "demoUrl": "http://cse125.ucsd.edu/recycool/",
     "technologies": [
       "Unity",
       "c#"
