@@ -759,3 +759,51 @@ h4 {
   float: right;
 }
 
+
+
+a {
+  width: fit-content;
+  display: inline-block;
+
+  color: rgb(150, 150, 150) !important;
+  border-radius: 2px;
+  font-size: 10px;
+  margin-right: 5px;
+
+
+}
+.demo-url, .src-url, .site-url {
+  width: fit-content;
+  padding: 5px;
+
+  border-radius: 2px;
+
+
+}
+.src-url {
+  background: rgb(255, 251, 250);
+}
+
+.demo-url {
+  background: rgb(251, 226, 149);
+}
+
+.site-url {
+  background: rgb(185, 200, 218);
+
+}
+
+a {
+  text-decoration: none !important;
+  /* font-family: georgia, serif !important; */
+  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
+  "Liberation Mono", Menlo, Courier, monospace;
+  border: 1px solid white;
+
+
+}
+  a:hover {
+    color: black !important;
+    border: 1px solid black;
+
+}

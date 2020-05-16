@@ -4,7 +4,7 @@
     "role": "Software Engineer III",
     "description": "Write and review elixir code",
     "term": "April 2019 - Present",
-    "url": "http://weedmaps.com/",
+    "siteUrl": "http://weedmaps.com/",
     "technologies": [
       "React",
       "Hapi",
@@ -24,7 +24,7 @@
     "role": "Director of Software Development",
     "description": "Plan, architect, direct & deliver various projects",
     "term": "February 2018 - April 2019",
-    "url": "http://yourhere.ca/",
+    "siteUrl": "http://yourhere.ca/",
     "technologies": [
       "React",
       "Hapi",
@@ -44,7 +44,7 @@
     "role": "Full Stack Developer",
     "description": "Created Data Visualizations for the LA Kings, Calgary Flames and others",
     "term": "July 2017 - November 2017",
-    "url": "http://www.stellaralgo.com",
+    "siteUrl": "http://www.stellaralgo.com",
     "technologies": [
       "Node.js",
       "Meteor",
@@ -60,7 +60,7 @@
     "role": "Visiting Scientist",
     "description": "Worked with the Viral Communications Group on a project called PubPub that is like Github for Science.",
     "term": "2016 - 2017",
-    "url": "https://www.pubpub.org/",
+    "siteUrl": "https://www.pubpub.org/",
     "technologies": [
       "Node.js",
       "Express",
@@ -76,7 +76,7 @@
     "role": "Full Stack Developer Intern",
     "description": "Educational technology directed towards K-12",
     "term": "July 2015 - September 2015",
-    "url": "https://www.teachtci.com/",
+    "siteUrl": "https://www.teachtci.com/",
     "technologies": [
       "Ruby on Rails",
       "JavaScript"
@@ -89,7 +89,7 @@
     "role": "Technical Co-founder",
     "description": "Dating startup focused on Muslim Americans",
     "term": "2013 - 2015",
-    "url": "http://ishqr.com",
+    "siteUrl": "http://ishqr.com",
     "technologies": [
       "Ruby on Rails",
       "PostgreSQL",
@@ -102,7 +102,7 @@
     "company": "AutoFusion",
     "role": "Full Stack Developer Intern",
     "description": "Developed features for a photoshop like browser application",
-    "url": "https://www.autofusion.com",
+    "siteUrl": "https://www.autofusion.com",
     "technologies": [
       "PHP",
       "JavaScript",

@@ -1,7 +1,8 @@
 [
   {
     "company": "Raspberry PI Drum Machine",
-    "description": "Turn your Raspberry PI into a touchscreen drum machine.",
+    "description": "Turn your Raspberry PI into a touchscreen drum machine",
+    "url": "https://github.com/hassanshaikley/rpi-drum-machine-nerves",
     "technologies": [
       "Nerves",
       "Elixir",
@@ -20,12 +21,15 @@
       "Javascript",
       "Webpack"
     ],
+    "url": "https://github.com/hassanshaikley/A-Frame-Character-Editor",
+    "demoUrl": "https://hassanshaikley.github.io/A-Frame-Character-Editor/",
     "imgSource": "af2.png"
   },
   {
     "company": "Chaosbeat",
     "description": "Play a song as your pixel band",
-    "url": "https://lilsheep.itch.io/chaosbeat",
+    "demoUrl": "https://lilsheep.itch.io/chaosbeat",
+    "url": "https://github.com/hassanshaikley/chaosbeat",
     "technologies": [
       "Node.js",
       "Pixi.js"
@@ -36,7 +40,8 @@
     "company": "Stabby Flies",
     "description": "Multiplayer browser game (io game) built with Elixir/Phoenix",
     "term": "November 2018 - Present",
-    "url": "https://meaty-spiffy-hermitcrab.gigalixirapp.com",
+    "demoUrl": "https://meaty-spiffy-hermitcrab.gigalixirapp.com",
+    "url": "https://github.com/hassanshaikley/stabby-flies",
     "technologies": [
       "Elixir",
       "Phoenix",
@@ -70,7 +75,7 @@
   {
     "company": "Cool Ways to Recycle",
     "description": "Game intended to teach children about recycling",
-    "url": "http://cse125.ucsd.edu/recycool/about",
+    "demoUrl": "http://cse125.ucsd.edu/recycool/about",
     "technologies": [
       "Unity",
       "c#"
@@ -91,6 +96,7 @@
     "company": "Scary Spoders",
     "description": "I turned a nightmare I had as a child into a game",
     "url": "https://github.com/hassanshaikley/scary-spoders",
+    "demoUrl": "https://github.com/hassanshaikley/scary-spoders/releases",
     "technologies": [
       "Unity",
       "c#"

@@ -53,7 +53,10 @@ export class Project extends React.Component {
               );
             })}
             {project.technologies && <br />}
-            {project.url && <a href={project.url}>{project.url}</a>}
+            {project.url && <a href={project.url}><div className="src-url">Source Url</div></a>}
+          {project.demoUrl && <a href={project.demoUrl}><div className="demo-url">Demo URL</div></a> }
+          {project.siteUrl && <a href={project.siteUrl}><div className="site-url">Site URL</div></a> }
+
           </div>
 
       </div>
