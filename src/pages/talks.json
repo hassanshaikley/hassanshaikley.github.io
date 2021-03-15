@@ -1,0 +1,17 @@
+[
+    {
+      "company": "Building a Touch Screen Drum Machine with Nerves and Scenic",
+      "description": "Using Elixir and Nerves, and a touch screen and raspberry pi I demonstrate how to build a drum machine!",
+      "_term": "November 2018 - Present",
+      "demoUrl": "https://www.verypossible.com/resources/video/touch-screen-nerves-scenic",
+      "_url": "https://github.com/hassanshaikley/stabby-flies",
+      "technologies": [
+        "Elixir",
+        "Phoenix",
+        "Node.js",
+        "three.js",
+        "React Three Fiber"
+      ],
+      "_imgSource": "rotb.png"
+    }
+]

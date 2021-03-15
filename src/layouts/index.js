@@ -33,7 +33,7 @@ const Header = () => (
         Hassan Shaikley
         </h1>
         <div id="left-small">
-        Software Developer
+        Software Engineer @ Community
         </div>
       </Left>
       <Right>
@@ -61,17 +61,17 @@ const MyLinks = () => (
 
     <div style={{margin: 'auto'}}>
       <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
-        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px'}} href="http://github.com/hassanshaikley">
+        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px', border: "none"}} href="http://github.com/hassanshaikley">
         <Icon name="github" />
         </a>
       </div>
       <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
-        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px'}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">
+        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px', border: "none"}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">
         <Icon name="linkedin" />
         </a>
       </div>
       <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
-        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px'}} href="mailto:hassan.shaikley@gmail.com?Subject=Noticed%20Your%20Portfolio" target="_top">
+        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '50px', border: "none"}} href="mailto:hassan.shaikley@gmail.com?Subject=Noticed%20Your%20Portfolio" target="_top">
         <Icon name="envelope" />
         </a>
       </div>

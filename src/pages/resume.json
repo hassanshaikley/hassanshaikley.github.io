@@ -1,22 +1,29 @@
 [
   {
+    "company": "Community",
+    "role": "Software Engineer",
+    "description": "Write and review elixir code",
+    "term": "April 2021 - Present",
+    "siteUrl": "http://community.com/",
+    "technologies": [
+      "Elixir",
+      "Phoenix",
+      "RabbitMQ"
+    ],
+    "extendedDescription": "Write and review Elixir!",
+    "_imgSource": "st_Laurent.jpg"
+  },
+  {
     "company": "Weedmaps",
     "role": "Software Engineer III",
     "description": "Write and review elixir code",
     "term": "April 2019 - Present",
     "siteUrl": "http://weedmaps.com/",
     "technologies": [
-      "React",
-      "Hapi",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Redis",
-      "WebGL",
-      "Blender",
-      "Babylon.js"
+      "Elixir",
+      "Phoenix"
     ],
-    "extendedDescription": "I oversee all of the development work and contribute primarily to the main engine. The main engine is a React engine that outputs interactive directories for various types of properties (Malls, Universities, Office, etc). It plugs straight into our CMS which I also oversee the development of.",
+    "extendedDescription": "Focused on an internal startup and after Covid I was shifted to the Online Ordering team",
     "_imgSource": "st_Laurent.jpg"
   },
   {

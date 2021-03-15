@@ -37,14 +37,15 @@ export class Project extends React.Component {
         </div>
 
           <div style={{ }}>
-            {project.technologies && project.technologies.map(technology => {
+            {project.technologies && project.technologies.map((technology, index) => {
               return (
-                <small><span
+                <small key={index}><span
                   style={{
                     backgroundColor: "lavender",
                     borderRadius: "3px",
                     padding: "2px",
-                    marginRight: "10px"
+                    marginRight: "10px",
+                    whiteSpace: "nowrap"
                   }}
                 >
                   {technology}

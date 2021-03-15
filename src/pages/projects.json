@@ -1,5 +1,20 @@
 [
   {
+    "company": "Realm of the Bits",
+    "description": "3D Multiplayer browser game prototype (io game) built with Elixir/Phoenix",
+    "_term": "November 2018 - Present",
+    "demoUrl": "https://meaty-spiffy-hermitcrab.gigalixirapp.com",
+    "url": "https://github.com/hassanshaikley/stabby-flies",
+    "technologies": [
+      "Elixir",
+      "Phoenix",
+      "Node.js",
+      "three.js",
+      "React Three Fiber"
+    ],
+    "imgSource": "rotb.png"
+  },
+  {
     "company": "Raspberry PI Drum Machine",
     "description": "Turn your Raspberry PI into a touchscreen drum machine",
     "url": "https://github.com/hassanshaikley/rpi-drum-machine-nerves",
@@ -38,9 +53,9 @@
   },
   {
     "company": "Stabby Flies",
-    "description": "Multiplayer browser game (io game) built with Elixir/Phoenix",
-    "term": "November 2018 - Present",
-    "demoUrl": "https://meaty-spiffy-hermitcrab.gigalixirapp.com",
+    "description": "Sidescroller Multiplayer browser game (io game) built with Elixir/Phoenix featured at the Magwest Gaming Convention",
+    "_term": "November 2018 - Present",
+    "_demoUrl": "https://meaty-spiffy-hermitcrab.gigalixirapp.com",
     "url": "https://github.com/hassanshaikley/stabby-flies",
     "technologies": [
       "Elixir",
