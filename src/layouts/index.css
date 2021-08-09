@@ -819,8 +819,18 @@ a {
   min-height: 100vw;
 }
 
+#body-wrapper {
+  width: 73vw;
+  float: right;
+}
+
 @media only screen and (max-width: 600px) {
   #header {
+    width: 100%;
+    /* this line doesnt work */
+    height: 10vw;
+  }
+  #body-wrapper {
     width: 100%;
   }
 }

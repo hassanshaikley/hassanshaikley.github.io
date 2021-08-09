@@ -99,9 +99,37 @@ const Footer = () => (
   </div>
 )
 
-const about_me_body = () => <p>
-  About me body
+const about_me_body = () =>         <p>
+Hi! I'm Hassan Shaikley. I am currently a Software Engineer at
+Community where I write & review code written in Elixir.
+<br />
+<br />
+I received my Bachelors of Science in Computer Science from the
+University of California San Diego in 2016. In my third year I left to
+focus on a startup that went viral and earned a spot at a startup
+accelerator. Afterwards I went back to finish my degree.
+<br />
+<br />
+I am really interested in functional programming, React & creating
+beautiful and organized frontends, game servers, Elixir/Erlang/BEAM,
+and distributed computation as well as embedded programming with
+Nerves. I am also interested in Rust but have yet to start using it.
+Lately I have been too busy tinkering with the BEAM, three.js and
+nerves. I feel very fond towards the BEAM due to it being an ingenius
+implementation of the actor model.
+<br />
+<br />I spend my free time hanging out with my beautiful wife, walking
+my chihuahua, tinkering with hardware and software, playing the
+guitar, gardening, making games, playing Mercy on Overwatch and
+playing Animal Crossing.
 </p>
+
+const projects_body = () =>         <p>List of Prijects</p>
+
+const tech_talks_body = () =>         <p>List of tech Talks</p>
+
+
+
 const section =  (title, body) => <div>
 <h2>{title}</h2>
 <p>
@@ -109,9 +137,6 @@ const section =  (title, body) => <div>
 </p>
 </div>
 
-const AboutMe = () => <p>
-Hello me
-</p>
 
 
 const TemplateWrapper = ({ children }) => (
@@ -124,13 +149,22 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
+    <div id="body-wrapper">
+
+
     <div style={{display: 'inline-block'}}>
-      {section("About ME", about_me_body)}
+      {section("About Me", about_me_body)}
+      {section("projects", projects_body)}
+      {section("tech_talks", tech_talks_body)}
+
+
+
     </div>
       {children()}
 
 		{/* <MyLinks /> */}
 
+    </div>
  </div>
 )
 
