@@ -13,32 +13,30 @@ import {Icon} from 'react-fa'
 
 
 
+// Width 100% when less than a certain amount
+// Otherwise width is 300px
 const Header = () => (
-  <div
-    style={{
+  <div style={{
       background: 'lavender',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-        display: 'flex',
-        flexWrap: 'wrap',
-      }}
-    >
-      <Left>
-        <h1 style={{ margin: 0 }}>
+      display: 'inline-block'
+    }} id="header">
+    <div style={{ }}>
+      <div style={{  }}>
+        <h1 style={{ margin: 0, padding: "30% 2rem 0", textAlign: 'center'}}>
         Hassan Shaikley
         </h1>
-        <div id="left-small">
-        Software Engineer @ Community
+        <div style={{margin: 'auto'}}>
+        <a id="left-small">
+        Home
+        </a>
+        <a id="left-small">
+        About
+        </a>
+        <a id="left-small">
+        Projects
+        </a>
         </div>
-      </Left>
-      <Right>
-      {/* <br /><small>Experience with React, Phoenix, Meteor, Ruby on Rails and various SQL & NoSQL Databases</small> */}
-      </Right>
+      </div>
     </div>
   </div>
 )
@@ -101,6 +99,20 @@ const Footer = () => (
   </div>
 )
 
+const about_me_body = () => <p>
+  About me body
+</p>
+const section =  (title, body) => <div>
+<h2>{title}</h2>
+<p>
+  {body()}
+</p>
+</div>
+
+const AboutMe = () => <p>
+Hello me
+</p>
+
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -112,13 +124,14 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    
+    <div style={{display: 'inline-block'}}>
+      {section("About ME", about_me_body)}
+    </div>
       {children()}
 
-		<MyLinks />
+		{/* <MyLinks /> */}
 
-{		//<Footer />
-}  </div>
+ </div>
 )
 
 TemplateWrapper.propTypes = {
