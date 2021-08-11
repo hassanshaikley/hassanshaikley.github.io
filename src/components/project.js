@@ -30,11 +30,11 @@ export class Project extends React.Component {
         {project.role && <h4>{project.role } // <bold>{project.company}</bold></h4>}
         {!project.role && <h4><bold>{project.company}</bold></h4>}
 
-        <div
+        <p
           style={{ fontSize: "90%", lineHeight: "normal", marginTop: "7px" }}
         >
           {project.description}
-        </div>
+        </p>
 
           <div style={{ }}>
             {/* {project.technologies && project.technologies.map((technology, index) => {

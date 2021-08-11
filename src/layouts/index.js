@@ -148,8 +148,7 @@ const Footer = () => (
 // </p>
 
 
-const about_me_body = () => <p>
-My name is Hassan. I live in Atlanta, Georgia. In the past I've lived in Calgary, Somerville, Mountain View and Los Angeles.
+const about_me_body = () => <p> My name is Hassan. I live in Atlanta, Georgia. In the past I've lived in Calgary, Somerville, Mountain View and Los Angeles.
 <br />
 <br />
 I spend my time in my garden, playing video games, cooking, hanging out with my gorgeous wife and with my pets.
@@ -169,8 +168,7 @@ On top of that my experience is fairly broad; I've taken ideas into production u
 I love to build! I turned a nightmare I had as a child into a game which can be downloaded <a href="https://github.com/hassanshaikley/scary-spoders/releases" target="_blank">here</a>.
 <br />
 <br />
-I've contributed to many open source projects including <a href="https://github.com/elixir-lang/elixir/" target="_blank">Elixir</a>, <a href="https://github.com/pubpub/pubpub">PubPub</a>, <a href="https://github.com/hassanshaikley/svg-pan-zoom" target="_blank">SVG Pan Zoom</a> and some others.
-</p>
+I've contributed to many open source projects including <a href="https://github.com/elixir-lang/elixir/" target="_blank">Elixir</a>, <a href="https://github.com/pubpub/pubpub">PubPub</a>, <a href="https://github.com/hassanshaikley/svg-pan-zoom" target="_blank">SVG Pan Zoom</a> and some others.</p>
 
 const projects_body = () =>         <ProjectsNew />
 
@@ -182,10 +180,8 @@ const blog_body = () => <p>
 
 
 const section =  (title, body) => <div>
-<h2 id={title.toLowerCase().split(' ').join('_')}>{title}</h2>
-<p>
+<h3 id={title.toLowerCase().split(' ').join('_')}>{title}</h3>
   {body()}
-</p>
 </div>
 
 
