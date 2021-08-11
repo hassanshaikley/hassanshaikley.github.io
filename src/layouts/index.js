@@ -34,13 +34,31 @@ const Header = () => (
         <a id="left-small" href="#blog">
         Blog
         </a>
-        <a id="left-small" href="#projects">
-        Projects
-        </a>
         <a id="left-small" href="#talks">
         Talks
         </a>
+        <a id="left-small" href="#projects">
+        Projects
+        </a>
         </div>
+      </div>
+    </div>
+    {/* Begin links */}
+    <div style={{margin: 'auto', width: "30%"}}>
+      <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
+        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '12px', border: "none"}} href="http://github.com/hassanshaikley">
+        <Icon name="github" />
+        </a>
+      </div>
+      <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
+        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '12px', border: "none"}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/">
+        <Icon name="linkedin" />
+        </a>
+      </div>
+      <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
+        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '12px', border: "none"}} href="https://www.twitter.com/hassanshaikley" target="_top">
+        <Icon name="twitter" />
+        </a>
       </div>
     </div>
   </div>
@@ -134,7 +152,7 @@ const about_me_body = () => <p>
 My name is Hassan. I live in Atlanta, Georgia. In the past I've lived in Calgary, Somerville, Mountain View and Los Angeles.
 <br />
 <br />
-I spend my time in my garden, playing video games, hanging out with my gorgeous wife and with my pets.
+I spend my time in my garden, playing video games, cooking, hanging out with my gorgeous wife and with my pets.
 <br />
 <br />
 In college I co-founded a startup that went viral. I've worked directly with many CEOs, worked at the MIT Media Lab, in one of my roles I was a director at a software company with clients across North America.
@@ -188,8 +206,8 @@ const TemplateWrapper = ({ children }) => (
     <div style={{display: 'inline-block'}}>
       {section("About Me", about_me_body)}
       {section("Blog", blog_body)}
-      {section("Projects", projects_body)}
       {section("Talks", talks_body)}
+      {section("Projects", projects_body)}
 
 
     </div>
