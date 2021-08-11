@@ -813,12 +813,7 @@ a {
 /* new */
 
 
-#header {
-  width: 27vw;
-  /* /* max-width: 25%; */
-  min-height: 100vw;
-  position: fixed;
-}
+
 
 #body-wrapper {
   width: 73vw;
@@ -831,13 +826,23 @@ a {
 
 }
 
+@media only screen and (min-width: 801px) {
+  #header {
+    width: 27vw;
+    /* /* max-width: 25%; */
+    min-height: 100vw;
+    position: fixed;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   #header {
     width: 100%;
     /* this line doesnt work */
-    height: 10vw;
+    /* height: 10vw; */
     min-height: 30vw;
     position: inherit;
+    padding-bottom: 10px;
   }
   #header-h1 {
     padding: 15% 2rem 0;
