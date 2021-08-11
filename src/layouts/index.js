@@ -11,6 +11,8 @@ import {Right} from '../components/right';
 
 import {Icon} from 'react-fa'
 
+import { ProjectsNew } from '../components/projects_new';
+
 
 
 // Width 100% when less than a certain amount
@@ -135,13 +137,15 @@ My name is Hassan. I live in Atlanta, Georgia. In the past I've lived in Calgary
 I spend my time in my garden, playing video games, hanging out with my gorgeous wife and with my pets.
 <br />
 <br />
-I've co-founded a startup. Worked directly with many CEOs. In one of my roles I was a director at a software company with clients across North America.
-I love to build prototypes and test the limits of new technology. Feel free to ask; I enjoy talking about all of my experiences.
+In college I co-founded a startup that went viral. I've worked directly with many CEOs, worked at the MIT Media Lab, in one of my roles I was a director at a software company with clients across North America.
 <br />
 <br />
-I am a huge fan of Elixir and React. There's a whole laundry list of technologoies I'm interested in which include
+I love to build prototypes and test the limits of new technology. Feel free to ask me about any of this; I enjoy talking about all of my experiences.
+<br />
+<br />
+I am a huge user of Elixir and React. There's a whole laundry list of technologies I'm interested in which include
 Zig, Godot Engine, three.js, Gatsby, React Three Fiber and many others.
-My experience is fairly broad; I've taken ideas into production using many different technologies. 
+On top of that my experience is fairly broad; I've taken ideas into production using many different technologies.
 <br />
 <br />
 I love to build! I turned a nightmare I had as a child into a game which can be downloaded <a href="https://github.com/hassanshaikley/scary-spoders/releases">here</a>.
@@ -150,9 +154,9 @@ I love to build! I turned a nightmare I had as a child into a game which can be 
 I've contributed to many open source projects including <a href="https://github.com/elixir-lang/elixir/">Elixir</a>, <a href="https://github.com/pubpub/pubpub">PubPub</a>, <a href="https://github.com/hassanshaikley/svg-pan-zoom">SVG Pan Zoom</a> and some others.
 </p>
 
-const projects_body = () =>         <p>List of Prijects</p>
+const projects_body = () =>         <ProjectsNew />
 
-const talks_body = () =>         <p>I'm going to be doing my first tech talk very soon at NervesConfon Building a Drum Machine with a Raspberry Pi and Nerves.</p>
+const talks_body = () =>         <p>I'm going to be doing my first tech talk very soon at NervesConf on Building a Drum Machine with a Raspberry Pi and Nerves.</p>
 
 const blog_body = () => <p>
   <a href="https://hassanshaikley.medium.com/">Link to my blog.</a>

@@ -817,6 +817,7 @@ a {
   width: 27vw;
   /* /* max-width: 25%; */
   min-height: 100vw;
+  position: fixed;
 }
 
 #body-wrapper {
@@ -842,13 +843,18 @@ a {
   }
   #body-wrapper {
     width: 100%;
-  }
+    margin-top: 160px;
 }
 
+}
 #left-small {
   margin: 0;
   padding: 0% 1rem 0;
   text-align: center;
   margin-top: 5px;
   margin: 2px;
+}
+
+.project-image {
+  width: 300px;
 }
