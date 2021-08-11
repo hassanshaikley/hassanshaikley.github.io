@@ -79,6 +79,15 @@
     "imgSource": "aotb.jpg"
   },
   {
+    "company": "Elixir Animation",
+    "description": "Little terminal animation reminescent of Dwarf Fortress that I wrote to learn Elixir.",
+    "url": "https://github.com/hassanshaikley/elixir-animation",
+    "technologies": [
+      "Elixir"
+    ],
+    "imgSource": "elixir-animation.gif"
+  },
+  {
     "company": "Bitmaps to BDF",
     "description": "A tool I made to create bitmap fonts visually for a custom Raspberry PI Console called the Flaschen Taschen",
     "url": "  https://github.com/hassanshaikley/bitmaps-to-bdf",
