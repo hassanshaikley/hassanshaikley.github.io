@@ -837,13 +837,14 @@ a {
     /* this line doesnt work */
     height: 10vw;
     min-height: 30vw;
+    position: inherit;
   }
   #header-h1 {
     padding: 15% 2rem 0;
   }
   #body-wrapper {
     width: 100%;
-    margin-top: 160px;
+
 }
 
 }
@@ -857,4 +858,8 @@ a {
 
 .project-image {
   width: 300px;
+}
+
+li {
+  list-style-type: none;
 }

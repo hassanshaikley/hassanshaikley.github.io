@@ -37,7 +37,7 @@ export class Project extends React.Component {
         </div>
 
           <div style={{ }}>
-            {project.technologies && project.technologies.map((technology, index) => {
+            {/* {project.technologies && project.technologies.map((technology, index) => {
               return (
                 <small key={index}><span
                   style={{
@@ -53,9 +53,9 @@ export class Project extends React.Component {
                 </small>
               );
             })}
-            {project.technologies && <br />}
-            {project.url && <a href={project.url}><div className="src-url">Source Url</div></a>}
-          {project.demoUrl && <a href={project.demoUrl}><div className="demo-url">Demo URL</div></a> }
+            {project.technologies && <br />} */}
+            {project.url && <a href={project.url}><div className="src-url">Link to source</div></a>}
+          {project.demoUrl && <a href={project.demoUrl}><div className="demo-url">Link to demo</div></a> }
           {project.siteUrl && <a href={project.siteUrl}><div className="site-url">Site URL</div></a> }
 
           </div>

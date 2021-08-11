@@ -6,7 +6,7 @@ import { Right } from "../components/right";
 import banf from "./banf.jpg"; // Tell Webpack this JS file uses this image
 import { Project } from "../components/project";
 
-const projects = require("./projects.json");
+// const projects = require("./projects.json");
 const talks = require("./talks.json");
 
 const resumeProjects = require("./resume.json");
