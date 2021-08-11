@@ -854,6 +854,10 @@ a {
   text-align: center;
   margin-top: 5px;
   margin: 2px;
+  display: block;
+  margin: 10px auto;
+  border: none;
+
 }
 
 .project-image {
