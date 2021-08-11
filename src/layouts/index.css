@@ -1,3 +1,10 @@
+@font-face {
+  font-family: robotoSlab;
+  src: url(/RobotoSlab.ttf);
+}
+
+
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -796,8 +803,7 @@ a {
 a {
   text-decoration: none !important;
   /* font-family: georgia, serif !important; */
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-  "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   border: 1px solid white;
 
 
@@ -862,6 +868,7 @@ a {
   display: block;
   margin: 10px auto;
   border: none;
+  font-size: 12px;
 
 }
 
@@ -871,4 +878,15 @@ a {
 
 li {
   list-style-type: none;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+  font-family: robotoSlab;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+
 }

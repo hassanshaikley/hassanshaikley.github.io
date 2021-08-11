@@ -28,35 +28,35 @@ const Header = () => (
         Hassan Shaikley
         </h1>
         <div style={{margin: 'auto', width: 'max-content', marginTop: '1em'}}>
-        <a id="left-small" href="#about_me">
-        About Me
-        </a>
-        <a id="left-small" href="#blog">
-        Blog
-        </a>
-        <a id="left-small" href="#talks">
-        Talks
-        </a>
-        <a id="left-small" href="#projects">
-        Projects
-        </a>
+          <a id="left-small" href="#about_me">
+          About Me
+          </a>
+          <a id="left-small" href="#blog">
+          Blog
+          </a>
+          <a id="left-small" href="#talks">
+          Talks
+          </a>
+          <a id="left-small" href="#projects">
+          Projects
+          </a>
         </div>
       </div>
     </div>
     {/* Begin links */}
     <div style={{margin: 'auto', width: "30%"}}>
       <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
-        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '12px', border: "none"}} href="http://github.com/hassanshaikley" target="_blank">
+        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '14px', border: "none"}} href="http://github.com/hassanshaikley" target="_blank">
         <Icon name="github" />
         </a>
       </div>
       <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
-        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '12px', border: "none"}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/" target="_blank">
+        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '14px', border: "none"}} href="https://www.linkedin.com/in/hassan-shaikley-88317653/" target="_blank">
         <Icon name="linkedin" />
         </a>
       </div>
       <div style={{width: '33%', float: 'right', textAlign: 'center'}}>
-        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '12px', border: "none"}} href="https://www.twitter.com/hassanshaikley" target="_blank">
+        <a style={{color: 'rgba(0,0,0,.8)', fontSize: '14px', border: "none"}} href="https://www.twitter.com/hassanshaikley" target="_blank">
         <Icon name="twitter" />
         </a>
       </div>
