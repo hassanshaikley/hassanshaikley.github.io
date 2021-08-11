@@ -822,13 +822,23 @@ a {
 #body-wrapper {
   width: 73vw;
   float: right;
+  padding: 4rem;
 }
 
-@media only screen and (max-width: 600px) {
+#header-h1 {
+  padding: 30% 2rem 0;
+
+}
+
+@media only screen and (max-width: 800px) {
   #header {
     width: 100%;
     /* this line doesnt work */
     height: 10vw;
+    min-height: 30vw;
+  }
+  #header-h1 {
+    padding: 15% 2rem 0;
   }
   #body-wrapper {
     width: 100%;
@@ -837,7 +847,8 @@ a {
 
 #left-small {
   margin: 0;
-  padding: 0% 2rem 0;
+  padding: 0% 1rem 0;
   text-align: center;
   margin-top: 5px;
+  margin: 2px;
 }
