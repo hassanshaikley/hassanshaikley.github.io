@@ -172,7 +172,7 @@ I've contributed to many open source projects including <a href="https://github.
 
 const projects_body = () =>         <ProjectsNew />
 
-const talks_body = () =>         <p>I'm going to be doing my first tech talk very soon at NervesConf on Building a Drum Machine with a Raspberry Pi and Nerves.</p>
+const talks_body = () =>         <p>I did a talk at NervesConf on Building a Drum Machine with a Raspberry Pi and Nerves but unfortunately the audio on the recording did not work.</p>
 
 const blog_body = () => <p>
   <a href="https://hassanshaikley.medium.com/" target="_blank">Link to my blog.</a>

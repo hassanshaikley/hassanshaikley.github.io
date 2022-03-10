@@ -1,9 +1,23 @@
 [
   {
+    "company": "Jackpocket",
+    "role": "Senior Software Engineer",
+    "description": "Write and review elixir code",
+    "term": "March 2022 - Present",
+    "siteUrl": "http://jackpocket.com/",
+    "technologies": [
+      "Elixir",
+      "Phoenix",
+      "RabbitMQ"
+    ],
+    "extendedDescription": "Write and review Elixir!",
+    "_imgSource": "st_Laurent.jpg"
+  },
+  {
     "company": "Community",
     "role": "Software Engineer",
     "description": "Write and review elixir code",
-    "term": "April 2021 - Present",
+    "term": "April 2021 - February 2022",
     "siteUrl": "http://community.com/",
     "technologies": [
       "Elixir",
